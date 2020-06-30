@@ -6,6 +6,7 @@ const Contact = ({data}) => {
             <div className="row section-head">
                 <div className="two columns header-col">
                     <h1>
+                        <i className="fa fa-envelope"></i>
                         <span>Get In Touch.</span>
                     </h1>
                 </div>
@@ -104,7 +105,7 @@ const Contact = ({data}) => {
                         </p>
                     </div>
 
-                    <div className="widget widget_tweets">
+                    {/* <div className="widget widget_tweets">
                         <h4 className="widget-title">Latest Tweets</h4>
                         <ul id="twitter">
                             <li>
@@ -132,7 +133,7 @@ const Contact = ({data}) => {
                                 </b>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                 </aside>
             </div>
         </section>

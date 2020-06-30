@@ -34,7 +34,7 @@ const Footer = ({data}) => {
                         title="Back to Top"
                         href="#home"
                     >
-                        <i className="icon-up-open"></i>
+                        <i className="fa fa-angle-up"></i>
                     </a>
                 </div>
             </div>

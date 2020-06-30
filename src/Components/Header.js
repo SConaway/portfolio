@@ -53,8 +53,9 @@ const Header = ({data}) => {
                 <div className="banner-text">
                     <h1 className="responsive-headline">I'm {data.name}.</h1>
                     <h3>
-                        I'm a {data.address.city} based{' '}
-                        <span>{data.occupation}</span>. {data.description}.
+                        I'm a {data.occupation}.
+                        <hr />
+                        {data.description}
                     </h3>
                     <hr />
                     <ul className="social">
@@ -72,7 +73,7 @@ const Header = ({data}) => {
 
             <p className="scrolldown">
                 <a className="smoothscroll" href="#about">
-                    <i className="icon-down-circle"></i>
+                    <i className="fa fa-angle-down"></i>
                 </a>
             </p>
         </header>
