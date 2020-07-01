@@ -7,7 +7,7 @@ const About = ({data}) => {
                 <div className="three columns">
                     <img
                         className="profile-pic"
-                        src={'images/' + data.image}
+                        src={require('./../../assets/images/' + data.image)}
                         alt="Tim Baker Profile Pic"
                     />
                 </div>

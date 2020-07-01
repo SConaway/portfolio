@@ -20,9 +20,8 @@ const Portfolio = ({data}) => {
                                     <a href={item.url} title={item.title}>
                                         <img
                                             alt={item.title}
-                                            src={
-                                                'images/portfolio/' + item.image
-                                            }
+                                            src={require('./../../assets/images/portfolio/' +
+                                                item.image)}
                                         />
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
