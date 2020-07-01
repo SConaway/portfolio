@@ -1,0 +1,938 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tree snapshot matches correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    id="home"
+  >
+    <nav
+      id="nav-wrap"
+    >
+      <a
+        className="mobile-btn"
+        href="#nav-wrap"
+        title="Show navigation"
+      >
+        Show navigation
+      </a>
+      <a
+        className="mobile-btn"
+        href="#home"
+        title="Hide navigation"
+      >
+        Hide navigation
+      </a>
+      <ul
+        className="nav"
+        id="nav"
+      >
+        <li
+          className="current"
+        >
+          <a
+            className="smoothscroll"
+            href="#home"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            className="smoothscroll"
+            href="#about"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            className="smoothscroll"
+            href="#resume"
+          >
+            Resume
+          </a>
+        </li>
+        <li>
+          <a
+            className="smoothscroll"
+            href="#portfolio"
+          >
+            Works
+          </a>
+        </li>
+        <li>
+          <a
+            className="smoothscroll"
+            href="#contact"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="row banner"
+    >
+      <div
+        className="banner-text"
+      >
+        <h1
+          className="responsive-headline"
+        >
+          I'm 
+          Steven Conaway
+          .
+        </h1>
+        <h3>
+          I'm an aspiring computer scientist and electrical engineer.
+          <hr />
+          Currently, I am seeking opportunities in the fields of Computer Science and Electrical Engineering.
+        </h3>
+        <hr />
+        <ul
+          className="social"
+        >
+          <li>
+             
+            <a
+              href="https://linkedin.com/in/steven-conaway"
+            >
+              <i
+                className="fab fa-linkedin"
+              />
+               
+            </a>
+             
+          </li>
+          <li>
+             
+            <a
+              href="http://instagram.com/steven.conaway"
+            >
+              <i
+                className="fab fa-instagram"
+              />
+               
+            </a>
+             
+          </li>
+          <li>
+             
+            <a
+              href="http://github.com/sconaway"
+            >
+              <i
+                className="fab fa-github"
+              />
+               
+            </a>
+             
+          </li>
+          <li>
+             
+            <a
+              href="mailto://sjconaway48@gmail.com"
+            >
+              <i
+                className="fa fa-envelope"
+              />
+               
+            </a>
+             
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p
+      className="scrolldown"
+    >
+      <a
+        className="smoothscroll"
+        href="#about"
+      >
+        <i
+          className="fa fa-angle-down"
+        />
+      </a>
+    </p>
+  </header>
+  <section
+    id="about"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="three columns"
+      >
+        <img
+          alt="Tim Baker Profile Pic"
+          className="profile-pic"
+          src="profilepic.jpg"
+        />
+      </div>
+      <div
+        className="nine columns main-col"
+      >
+        <h2>
+          About Me
+        </h2>
+        <p>
+          Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.
+        </p>
+        <div
+          className="row"
+        >
+          <div
+            className="columns contact-details"
+          >
+            <h2>
+              Contact Details
+            </h2>
+            <p
+              className="address"
+            >
+              <span>
+                Steven Conaway
+              </span>
+              <br />
+              <span>
+                28874 Seco Canyon Road
+                <br />
+                Santa Clarita
+                 
+                CA
+                ,
+                 
+                91390
+              </span>
+              <br />
+              <span>
+                (661) 236-5956
+              </span>
+              <br />
+              <span>
+                sjconaway48@gmail.com
+              </span>
+            </p>
+          </div>
+          <div
+            className="columns download"
+          >
+            <p>
+              <a
+                className="button"
+              >
+                <i
+                  className="fa fa-download"
+                />
+                Download Resume
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    id="resume"
+  >
+    <div
+      className="row education"
+    >
+      <div
+        className="three columns header-col"
+      >
+        <h1>
+          <span>
+            Education
+          </span>
+        </h1>
+      </div>
+      <div
+        className="nine columns main-col"
+      >
+        <div
+          className="row item"
+        >
+          <div
+            className="twelve columns"
+          >
+            <div>
+              <h3>
+                St. Monica Academy
+              </h3>
+              <p
+                className="info"
+              >
+                Masters in Beer tasting
+                 
+                <span>
+                  •
+                </span>
+                <em
+                  className="date"
+                >
+                  June 2021
+                </em>
+              </p>
+              <p>
+                Describe your experience at school, what you learned, what useful skills you have acquired etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row work"
+    >
+      <div
+        className="three columns header-col"
+      >
+        <h1>
+          <span>
+            Work
+          </span>
+        </h1>
+      </div>
+      <div
+        className="nine columns main-col"
+      >
+        <div>
+          <h3>
+            We2Link
+          </h3>
+          <p
+            className="info"
+          >
+            Mobile Application Developer
+            <span>
+              •
+            </span>
+             
+            <em
+              className="date"
+            >
+              August 2019 – Present
+            </em>
+          </p>
+          <p>
+            Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.
+          </p>
+        </div>
+        <div>
+          <h3>
+            East Los Angeles Community Youth Center
+          </h3>
+          <p
+            className="info"
+          >
+            Tech Instructor
+            <span>
+              •
+            </span>
+             
+            <em
+              className="date"
+            >
+              June 2018 – Present
+            </em>
+          </p>
+          <p>
+            Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.
+          </p>
+        </div>
+        <div>
+          <h3>
+            Unlocked Escape Rooms
+          </h3>
+          <p
+            className="info"
+          >
+            Embedded Application Developer
+            <span>
+              •
+            </span>
+             
+            <em
+              className="date"
+            >
+              November 2018 – May 2019
+            </em>
+          </p>
+          <p>
+            Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row skill"
+    >
+      <div
+        className="three columns header-col"
+      >
+        <h1>
+          <span>
+            Skills
+          </span>
+        </h1>
+      </div>
+      <div
+        className="nine columns main-col"
+      >
+        <p>
+          Here you can create a short write-up of your skills to show off to employers
+        </p>
+        <div
+          className="bars"
+        >
+          <ul
+            className="skills"
+          >
+            <li>
+              <span
+                className="bar-expand git"
+                style={
+                  Object {
+                    "width": "60%",
+                  }
+                }
+              />
+              <em>
+                Git
+              </em>
+            </li>
+            <li>
+              <span
+                className="bar-expand reactjs"
+                style={
+                  Object {
+                    "width": "50%",
+                  }
+                }
+              />
+              <em>
+                ReactJS
+              </em>
+            </li>
+            <li>
+              <span
+                className="bar-expand react native"
+                style={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+              />
+              <em>
+                React Native
+              </em>
+            </li>
+            <li>
+              <span
+                className="bar-expand css"
+                style={
+                  Object {
+                    "width": "80%",
+                  }
+                }
+              />
+              <em>
+                CSS
+              </em>
+            </li>
+            <li>
+              <span
+                className="bar-expand html5"
+                style={
+                  Object {
+                    "width": "90%",
+                  }
+                }
+              />
+              <em>
+                HTML5
+              </em>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    id="portfolio"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="twelve columns collapsed"
+      >
+        <h1>
+          Check Out Some of My Works.
+        </h1>
+        <div
+          className="bgrid-quarters s-bgrid-thirds cf"
+          id="portfolio-wrapper"
+        >
+          <div
+            className="columns portfolio-item"
+          >
+            <div
+              className="item-wrap"
+            >
+              <a
+                href="https://www.canadianwanderlust.com"
+                title="Canadian Wanderlust"
+              >
+                <img
+                  alt="Canadian Wanderlust"
+                  src="canadian-wanderlust.jpg"
+                />
+                <div
+                  className="overlay"
+                >
+                  <div
+                    className="portfolio-item-meta"
+                  >
+                    <h5>
+                      Canadian Wanderlust
+                    </h5>
+                    <p>
+                      My Travel Blog for my post-university travels
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="link-icon"
+                >
+                  <i
+                    className="fa fa-link"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            className="columns portfolio-item"
+          >
+            <div
+              className="item-wrap"
+            >
+              <a
+                href="http://www.timbakerdev.com"
+                title="Fury Fighting Gear"
+              >
+                <img
+                  alt="Fury Fighting Gear"
+                  src="fury-fighting-gear.jpg"
+                />
+                <div
+                  className="overlay"
+                >
+                  <div
+                    className="portfolio-item-meta"
+                  >
+                    <h5>
+                      Fury Fighting Gear
+                    </h5>
+                    <p>
+                      (offline now) A fighting gear company I started
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="link-icon"
+                >
+                  <i
+                    className="fa fa-link"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            className="columns portfolio-item"
+          >
+            <div
+              className="item-wrap"
+            >
+              <a
+                href="http://www.timbakerdev.com/originalthaifood.github.io"
+                title="Original Thai Food"
+              >
+                <img
+                  alt="Original Thai Food"
+                  src="original-thai-food.jpg"
+                />
+                <div
+                  className="overlay"
+                >
+                  <div
+                    className="portfolio-item-meta"
+                  >
+                    <h5>
+                      Original Thai Food
+                    </h5>
+                    <p>
+                      Website I built for a restaurant I like in Thailand
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="link-icon"
+                >
+                  <i
+                    className="fa fa-link"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            className="columns portfolio-item"
+          >
+            <div
+              className="item-wrap"
+            >
+              <a
+                href="http://www.timbakerdev.com"
+                title="Resume Website"
+              >
+                <img
+                  alt="Resume Website"
+                  src="resume-website.jpg"
+                />
+                <div
+                  className="overlay"
+                >
+                  <div
+                    className="portfolio-item-meta"
+                  >
+                    <h5>
+                      Resume Website
+                    </h5>
+                    <p>
+                      A React based resume website template
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="link-icon"
+                >
+                  <i
+                    className="fa fa-link"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            className="columns portfolio-item"
+          >
+            <div
+              className="item-wrap"
+            >
+              <a
+                href="http://www.smirkspace.com"
+                title="Smirkspace"
+              >
+                <img
+                  alt="Smirkspace"
+                  src="smirkspace.jpg"
+                />
+                <div
+                  className="overlay"
+                >
+                  <div
+                    className="portfolio-item-meta"
+                  >
+                    <h5>
+                      Smirkspace
+                    </h5>
+                    <p>
+                      (MVP Only) A React and Meteor based chat University project.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="link-icon"
+                >
+                  <i
+                    className="fa fa-link"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    id="contact"
+  >
+    <div
+      className="row section-head"
+    >
+      <div
+        className="two columns header-col"
+      >
+        <h1>
+          <i
+            className="fa fa-envelope"
+          />
+          <span>
+            Get In Touch.
+          </span>
+        </h1>
+      </div>
+      <div
+        className="ten columns"
+      >
+        <p
+          className="lead"
+        >
+          If you have any questions or would like to reach out to me, send me an email using the form below.
+        </p>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="eight columns"
+      >
+        <form
+          action=""
+          id="contactForm"
+          method="post"
+          name="contactForm"
+        >
+          <fieldset>
+            <div>
+              <label
+                htmlFor="contactName"
+              >
+                Name 
+                <span
+                  className="required"
+                >
+                  *
+                </span>
+              </label>
+              <input
+                defaultValue=""
+                id="contactName"
+                name="contactName"
+                size="35"
+                type="text"
+              />
+            </div>
+            <div>
+              <label
+                htmlFor="contactEmail"
+              >
+                Email 
+                <span
+                  className="required"
+                >
+                  *
+                </span>
+              </label>
+              <input
+                defaultValue=""
+                id="contactEmail"
+                name="contactEmail"
+                size="35"
+                type="text"
+              />
+            </div>
+            <div>
+              <label
+                htmlFor="contactSubject"
+              >
+                Subject
+              </label>
+              <input
+                defaultValue=""
+                id="contactSubject"
+                name="contactSubject"
+                size="35"
+                type="text"
+              />
+            </div>
+            <div>
+              <label
+                htmlFor="contactMessage"
+              >
+                Message 
+                <span
+                  className="required"
+                >
+                  *
+                </span>
+              </label>
+              <textarea
+                cols="50"
+                id="contactMessage"
+                name="contactMessage"
+                rows="15"
+              />
+            </div>
+            <div>
+              <button
+                className="submit"
+              >
+                Submit
+              </button>
+              <span
+                id="image-loader"
+              >
+                <i
+                  className="fa fa-refresh fa-spin fa-3x fa-fw"
+                />
+                <span
+                  className="sr-only"
+                >
+                  Loading...
+                </span>
+              </span>
+            </div>
+          </fieldset>
+        </form>
+        <div
+          id="message-warning"
+        >
+           Error boy
+        </div>
+        <div
+          id="message-success"
+        >
+          <i
+            className="fa fa-check"
+          />
+          Your message was sent, thank you!
+          <br />
+        </div>
+      </div>
+      <aside
+        className="four columns footer-widgets"
+      >
+        <div
+          className="widget widget_contact"
+        >
+          <h4>
+            Address and Phone
+          </h4>
+          <p
+            className="address"
+          >
+            Steven Conaway
+            <br />
+            28874 Seco Canyon Road
+             
+            <br />
+            Santa Clarita
+            ,
+             
+            CA
+             
+            91390
+            <br />
+            <span>
+              (661) 236-5956
+            </span>
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <footer>
+    <div
+      className="row"
+    >
+      <div
+        className="twelve columns"
+      >
+        <ul
+          className="social-links"
+        >
+          <li>
+            <a
+              href="https://linkedin.com/in/steven-conaway"
+            >
+              <i
+                className="fab fa-linkedin"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://instagram.com/steven.conaway"
+            >
+              <i
+                className="fab fa-instagram"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://github.com/sconaway"
+            >
+              <i
+                className="fab fa-github"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto://sjconaway48@gmail.com"
+            >
+              <i
+                className="fa fa-envelope"
+              />
+            </a>
+          </li>
+        </ul>
+        <ul
+          className="copyright"
+        >
+          <li>
+            © Copyright 
+            2020
+             Steven Conaway
+          </li>
+          <li>
+            Design by
+             
+            <a
+              href="http://www.styleshout.com/"
+              title="Styleshout"
+            >
+              Styleshout
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        id="go-top"
+      >
+        <a
+          className="smoothscroll"
+          href="#home"
+          title="Back to Top"
+        >
+          <i
+            className="fa fa-angle-up"
+          />
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
