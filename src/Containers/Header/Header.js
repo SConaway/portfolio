@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Header = ({data}) => {
+import resumeData from './../../resumeData.json';
+
+const Header = () => {
     return (
         <header id="home">
             <nav id="nav-wrap">
@@ -51,15 +53,19 @@ const Header = ({data}) => {
 
             <div className="row banner">
                 <div className="banner-text">
-                    <h1 className="responsive-headline">I'm {data.name}.</h1>
+                    <h1 className="responsive-headline">
+                        I'm {resumeData.main.name}.
+                    </h1>
                     <h3>
-                        I'm a {data.occupation}.
+                        I'm an aspiring computer scientist and electrical
+                        engineer.
                         <hr />
-                        {data.description}
+                        Currently, I am seeking opportunities in the fields of
+                        Computer Science and Electrical Engineering.
                     </h3>
                     <hr />
                     <ul className="social">
-                        {data.socials.map((item) => (
+                        {resumeData.main.socials.map((item) => (
                             <li key={item.name}>
                                 {' '}
                                 <a href={item.url}>

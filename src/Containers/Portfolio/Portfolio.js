@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Portfolio = ({data}) => {
+import resumeData from './../../resumeData.json';
+
+const Portfolio = () => {
     return (
         <section id="portfolio">
             <div className="row">
@@ -11,7 +13,7 @@ const Portfolio = ({data}) => {
                         id="portfolio-wrapper"
                         className="bgrid-quarters s-bgrid-thirds cf"
                     >
-                        {data.projects.map((item) => (
+                        {resumeData.portfolio.projects.map((item) => (
                             <div
                                 key={item.title}
                                 className="columns portfolio-item"

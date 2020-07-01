@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Resume = ({data}) => {
+import resumeData from './../../resumeData.json';
+
+const Resume = () => {
     return (
         <section id="resume">
             <div className="row education">
@@ -13,7 +15,7 @@ const Resume = ({data}) => {
                 <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
-                            {data.education.map((item) => (
+                            {resumeData.resume.education.map((item) => (
                                 <div key={item.school}>
                                     <h3>{item.school}</h3>
                                     <p className="info">
@@ -38,7 +40,7 @@ const Resume = ({data}) => {
                 </div>
 
                 <div className="nine columns main-col">
-                    {data.work.map((item) => (
+                    {resumeData.resume.work.map((item) => (
                         <div key={item.company}>
                             <h3>{item.company}</h3>
                             <p className="info">
@@ -60,11 +62,11 @@ const Resume = ({data}) => {
                 </div>
 
                 <div className="nine columns main-col">
-                    <p>{data.skillmessage}</p>
+                    <p>{resumeData.resume.skillmessage}</p>
 
                     <div className="bars">
                         <ul className="skills">
-                            {data.skills.map((item) => (
+                            {resumeData.resume.skills.map((item) => (
                                 <li key={item.name}>
                                     <span
                                         style={{width: item.level}}

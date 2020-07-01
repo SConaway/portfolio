@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Contact = ({data}) => {
+import resumeData from './../../resumeData.json';
+
+const Contact = ({}) => {
     return (
         <section id="contact">
             <div className="row section-head">
@@ -12,7 +14,10 @@ const Contact = ({data}) => {
                 </div>
 
                 <div className="ten columns">
-                    <p className="lead">{data.contactmessage}</p>
+                    <p className="lead">
+                        If you have any questions or would like to reach out to
+                        me, send me an email using the form below.
+                    </p>
                 </div>
             </div>
 
@@ -96,13 +101,14 @@ const Contact = ({data}) => {
                     <div className="widget widget_contact">
                         <h4>Address and Phone</h4>
                         <p className="address">
-                            {data.name}
+                            {resumeData.main.name}
                             <br />
-                            {data.address.street} <br />
-                            {data.address.city}, {data.address.state}{' '}
-                            {data.address.zip}
+                            {resumeData.main.address.street} <br />
+                            {resumeData.main.address.city},{' '}
+                            {resumeData.main.address.state}{' '}
+                            {resumeData.main.address.zip}
                             <br />
-                            <span>{data.phone}</span>
+                            <span>{resumeData.main.phone}</span>
                         </p>
                     </div>
 

@@ -1,12 +1,14 @@
 import React from 'react';
 
-const Footer = ({data}) => {
+import resumeData from './../../resumeData.json';
+
+const Footer = () => {
     return (
         <footer>
             <div className="row">
                 <div className="twelve columns">
                     <ul className="social-links">
-                        {data.socials.map((item) => (
+                        {resumeData.main.socials.map((item) => (
                             <li key={item.name}>
                                 <a href={item.url}>
                                     <i className={item.className}></i>
@@ -16,7 +18,10 @@ const Footer = ({data}) => {
                     </ul>
 
                     <ul className="copyright">
-                        <li>&copy; Copyright 2017 Tim Baker</li>
+                        <li>
+                            &copy; Copyright {new Date().getFullYear()} Steven
+                            Conaway
+                        </li>
                         <li>
                             Design by{' '}
                             <a

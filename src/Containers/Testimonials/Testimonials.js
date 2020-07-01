@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Testimonials = ({data}) => {
+import resumeData from './../../resumeData.json';
+
+const Testimonials = () => {
     return (
         <section id="testimonials">
             <div className="text-container">
@@ -13,14 +15,16 @@ const Testimonials = ({data}) => {
 
                     <div className="ten columns flex-container">
                         <ul className="slides">
-                            {data.testimonials.map((item) => (
-                                <li key={item.user}>
-                                    <blockquote>
-                                        <p>{item.text}</p>
-                                        <cite>{item.user}</cite>
-                                    </blockquote>
-                                </li>
-                            ))}
+                            {resumeData.testimonials.testimonials.map(
+                                (item) => (
+                                    <li key={item.user}>
+                                        <blockquote>
+                                            <p>{item.text}</p>
+                                            <cite>{item.user}</cite>
+                                        </blockquote>
+                                    </li>
+                                ),
+                            )}
                         </ul>
                     </div>
                 </div>

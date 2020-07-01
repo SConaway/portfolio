@@ -1,42 +1,51 @@
 import React from 'react';
 
-const About = ({data}) => {
+import resumeData from './../../resumeData.json';
+
+const About = () => {
     return (
         <section id="about">
             <div className="row">
                 <div className="three columns">
                     <img
                         className="profile-pic"
-                        src={require('./../../assets/images/' + data.image)}
+                        src={require('./../../assets/images/' +
+                            resumeData.main.image)}
                         alt="Tim Baker Profile Pic"
                     />
                 </div>
                 <div className="nine columns main-col">
                     <h2>About Me</h2>
 
-                    <p>{data.bio}</p>
+                    <p>
+                        Use this bio section as your way of describing yourself
+                        and saying what you do, what technologies you like to
+                        use or feel most comfortable with, describing your
+                        personality, or whatever else you feel like throwing in.
+                    </p>
                     <div className="row">
                         <div className="columns contact-details">
                             <h2>Contact Details</h2>
                             <p className="address">
-                                <span>{data.name}</span>
+                                <span>{resumeData.main.name}</span>
                                 <br />
                                 <span>
-                                    {data.address.street}
+                                    {resumeData.main.address.street}
                                     <br />
-                                    {data.address.city} {data.address.state},{' '}
-                                    {data.address.zip}
+                                    {resumeData.main.address.city}{' '}
+                                    {resumeData.main.address.state},{' '}
+                                    {resumeData.main.address.zip}
                                 </span>
                                 <br />
-                                <span>{data.phone}</span>
+                                <span>{resumeData.main.phone}</span>
                                 <br />
-                                <span>{data.email}</span>
+                                <span>{resumeData.main.email}</span>
                             </p>
                         </div>
                         <div className="columns download">
                             <p>
                                 <a
-                                    href={data.resumeDownload}
+                                    href={resumeData.main.resumeDownload}
                                     className="button"
                                 >
                                     <i className="fa fa-download"></i>

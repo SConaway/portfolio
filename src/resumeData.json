@@ -1,11 +1,7 @@
 {
     "main": {
         "name": "Steven Conaway",
-        "occupation": "aspiring computer scientist and electrical engineer",
-        "description": "Currently, I am seeking opportunities in the fields of Computer Science and Electrical Engineering.",
         "image": "profilepic.jpg",
-        "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
         "email": "sjconaway48@gmail.com",
         "phone": "(661) 236-5956",
         "address": {
