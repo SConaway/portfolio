@@ -5,9 +5,9 @@ import resumeData from './../../resumeData.json';
 const Footer = () => {
     return (
         <footer>
-            <div className="row">
-                <div className="twelve columns">
-                    <ul className="social-links">
+            <div className='row'>
+                <div className='twelve columns'>
+                    <ul className='social-links'>
                         {resumeData.main.socials.map((item) => (
                             <li key={item.name}>
                                 <a href={item.url}>
@@ -17,7 +17,7 @@ const Footer = () => {
                         ))}
                     </ul>
 
-                    <ul className="copyright">
+                    <ul className='copyright'>
                         <li>
                             &copy; Copyright {new Date().getFullYear()} Steven
                             Conaway
@@ -25,21 +25,21 @@ const Footer = () => {
                         <li>
                             Design by{' '}
                             <a
-                                title="Styleshout"
-                                href="http://www.styleshout.com/"
+                                title='Styleshout'
+                                href='http://www.styleshout.com/'
                             >
                                 Styleshout
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div id="go-top">
+                <div id='go-top'>
                     <a
-                        className="smoothscroll"
-                        title="Back to Top"
-                        href="#home"
+                        className='smoothscroll'
+                        title='Back to Top'
+                        href='#home'
                     >
-                        <i className="fa fa-angle-up"></i>
+                        <i className='fa fa-angle-up'></i>
                     </a>
                 </div>
             </div>

@@ -9,7 +9,7 @@ import Portfolio from './Containers/Portfolio/Portfolio';
 
 const App = () => {
     return (
-        <div className="App">
+        <div className='App'>
             <Header />
             <About />
             <Resume />

@@ -4,17 +4,17 @@ import resumeData from './../../resumeData.json';
 
 const About = () => {
     return (
-        <section id="about">
-            <div className="row">
-                <div className="three columns">
+        <section id='about'>
+            <div className='row'>
+                <div className='three columns'>
                     <img
-                        className="profile-pic"
+                        className='profile-pic'
                         src={require('./../../assets/images/' +
                             resumeData.main.image)}
-                        alt="Tim Baker Profile Pic"
+                        alt='Tim Baker Profile Pic'
                     />
                 </div>
-                <div className="nine columns main-col">
+                <div className='nine columns main-col'>
                     <h2>About Me</h2>
 
                     <p>
@@ -23,10 +23,10 @@ const About = () => {
                         use or feel most comfortable with, describing your
                         personality, or whatever else you feel like throwing in.
                     </p>
-                    <div className="row">
-                        <div className="columns contact-details">
+                    <div className='row'>
+                        <div className='columns contact-details'>
                             <h2>Contact Details</h2>
-                            <p className="address">
+                            <p className='address'>
                                 <span>{resumeData.main.name}</span>
                                 <br />
                                 <span>
@@ -42,13 +42,13 @@ const About = () => {
                                 <span>{resumeData.main.email}</span>
                             </p>
                         </div>
-                        <div className="columns download">
+                        <div className='columns download'>
                             <p>
                                 <a
                                     href={resumeData.main.resumeDownload}
-                                    className="button"
+                                    className='button'
                                 >
-                                    <i className="fa fa-download"></i>
+                                    <i className='fa fa-download'></i>
                                     Download Resume
                                 </a>
                             </p>
