@@ -81,9 +81,7 @@ exports[`tree snapshot matches correctly 1`] = `
         <h1
           className="responsive-headline"
         >
-          I'm 
           Steven Conaway
-          .
         </h1>
         <h3>
           I'm an aspiring computer scientist and electrical engineer.
@@ -262,14 +260,16 @@ exports[`tree snapshot matches correctly 1`] = `
           >
             <div>
               <h3>
-                St. Monica Academy
+                Saint Monica Academy
               </h3>
               <p
                 className="info"
               >
-                Masters in Beer tasting
+                High School Diploma
                  
-                <span>
+                <span
+                  className="bullet"
+                >
                   •
                 </span>
                 <em
@@ -279,7 +279,7 @@ exports[`tree snapshot matches correctly 1`] = `
                 </em>
               </p>
               <p>
-                Describe your experience at school, what you learned, what useful skills you have acquired etc.
+                While the high school I have attended does not offer classes in the ever-changing fields of technology, I have found a way to integrate these fields into my study: I am the founding president of my school's VEX Robotics Club and have taken online courses in STEM fields independently. Additionally, I have significant STEM experience outside of my school.
               </p>
             </div>
           </div>
@@ -294,7 +294,7 @@ exports[`tree snapshot matches correctly 1`] = `
       >
         <h1>
           <span>
-            Work
+            Work Experience
           </span>
         </h1>
       </div>
@@ -303,16 +303,26 @@ exports[`tree snapshot matches correctly 1`] = `
       >
         <div>
           <h3>
-            We2Link
+            Mobile Application Developer
           </h3>
           <p
             className="info"
           >
-            Mobile Application Developer
-            <span>
+            <span
+              style={
+                Object {
+                  "fontWeight": "bold",
+                  "textDecoration": "underline black solid",
+                }
+              }
+            >
+              We2Link
+            </span>
+            <span
+              className="bullet"
+            >
               •
             </span>
-             
             <em
               className="date"
             >
@@ -320,43 +330,63 @@ exports[`tree snapshot matches correctly 1`] = `
             </em>
           </p>
           <p>
-            Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.
+            Designing and programming a React Native mobile application for iOS and Android to help those with traumatic brain injuries. This project includes the Agile Development methodology and use of GitHub as a code repository and issue tracker, and Jira for project management.
           </p>
         </div>
         <div>
           <h3>
-            East Los Angeles Community Youth Center
+            Tech Instructor
           </h3>
           <p
             className="info"
           >
-            Tech Instructor
-            <span>
+            <span
+              style={
+                Object {
+                  "fontWeight": "bold",
+                  "textDecoration": "underline black solid",
+                }
+              }
+            >
+              East Los Angeles Community Youth Center
+            </span>
+            <span
+              className="bullet"
+            >
               •
             </span>
-             
             <em
               className="date"
             >
-              June 2018 – Present
+              June 2018 – March 2020
             </em>
           </p>
           <p>
-            Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.
+            Taught a "How to Build your own Arduino-based Smart Car" class, "Introduction to Drones", and "LEGO Robotics" to underserved elementary- and middle-school students. Our Robotics team won second place in the First Annual Boyle Heights Robotics Competition. Also, developed the curriculum currently in use for the "How to Build your own Arduino-based Smart Car" class. 
           </p>
         </div>
         <div>
           <h3>
-            Unlocked Escape Rooms
+            Embedded Application Developer
           </h3>
           <p
             className="info"
           >
-            Embedded Application Developer
-            <span>
+            <span
+              style={
+                Object {
+                  "fontWeight": "bold",
+                  "textDecoration": "underline black solid",
+                }
+              }
+            >
+              Unlocked Escape Rooms
+            </span>
+            <span
+              className="bullet"
+            >
               •
             </span>
-             
             <em
               className="date"
             >
@@ -364,7 +394,32 @@ exports[`tree snapshot matches correctly 1`] = `
             </em>
           </p>
           <p>
-            Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.
+            Designed and programmed Arduino-based props for escape rooms, such as RFID door locks. These props required the Arduino to interface with various hardware, such as RFID tags, electronic locks, and arrays of buttons.
+          </p>
+        </div>
+        <div>
+          <h3>
+            Tutor
+          </h3>
+          <p
+            className="info"
+          >
+            <span
+              style={
+                Object {
+                  "fontWeight": "bold",
+                  "textDecoration": "underline black solid",
+                }
+              }
+            />
+            <em
+              className="date"
+            >
+              January 2018 – February 2020
+            </em>
+          </p>
+          <p>
+            Tutoring middle- and high- school students from Saint Monica Academy in various subjects, including Latin, Math, and Java Programming.
           </p>
         </div>
       </div>
@@ -486,126 +541,12 @@ exports[`tree snapshot matches correctly 1`] = `
               className="item-wrap"
             >
               <a
-                href="https://www.canadianwanderlust.com"
-                title="Canadian Wanderlust"
-              >
-                <img
-                  alt="Canadian Wanderlust"
-                  src="canadian-wanderlust.jpg"
-                />
-                <div
-                  className="overlay"
-                >
-                  <div
-                    className="portfolio-item-meta"
-                  >
-                    <h5>
-                      Canadian Wanderlust
-                    </h5>
-                    <p>
-                      My Travel Blog for my post-university travels
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="link-icon"
-                >
-                  <i
-                    className="fa fa-link"
-                  />
-                </div>
-              </a>
-            </div>
-          </div>
-          <div
-            className="columns portfolio-item"
-          >
-            <div
-              className="item-wrap"
-            >
-              <a
-                href="http://www.timbakerdev.com"
-                title="Fury Fighting Gear"
-              >
-                <img
-                  alt="Fury Fighting Gear"
-                  src="fury-fighting-gear.jpg"
-                />
-                <div
-                  className="overlay"
-                >
-                  <div
-                    className="portfolio-item-meta"
-                  >
-                    <h5>
-                      Fury Fighting Gear
-                    </h5>
-                    <p>
-                      (offline now) A fighting gear company I started
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="link-icon"
-                >
-                  <i
-                    className="fa fa-link"
-                  />
-                </div>
-              </a>
-            </div>
-          </div>
-          <div
-            className="columns portfolio-item"
-          >
-            <div
-              className="item-wrap"
-            >
-              <a
-                href="http://www.timbakerdev.com/originalthaifood.github.io"
-                title="Original Thai Food"
-              >
-                <img
-                  alt="Original Thai Food"
-                  src="original-thai-food.jpg"
-                />
-                <div
-                  className="overlay"
-                >
-                  <div
-                    className="portfolio-item-meta"
-                  >
-                    <h5>
-                      Original Thai Food
-                    </h5>
-                    <p>
-                      Website I built for a restaurant I like in Thailand
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="link-icon"
-                >
-                  <i
-                    className="fa fa-link"
-                  />
-                </div>
-              </a>
-            </div>
-          </div>
-          <div
-            className="columns portfolio-item"
-          >
-            <div
-              className="item-wrap"
-            >
-              <a
-                href="http://www.timbakerdev.com"
+                href="https://www.stevenconaway.me"
                 title="Resume Website"
               >
                 <img
                   alt="Resume Website"
-                  src="resume-website.jpg"
+                  src="resume-website.png"
                 />
                 <div
                   className="overlay"
@@ -618,44 +559,6 @@ exports[`tree snapshot matches correctly 1`] = `
                     </h5>
                     <p>
                       A React based resume website template
-                    </p>
-                  </div>
-                </div>
-                <div
-                  className="link-icon"
-                >
-                  <i
-                    className="fa fa-link"
-                  />
-                </div>
-              </a>
-            </div>
-          </div>
-          <div
-            className="columns portfolio-item"
-          >
-            <div
-              className="item-wrap"
-            >
-              <a
-                href="http://www.smirkspace.com"
-                title="Smirkspace"
-              >
-                <img
-                  alt="Smirkspace"
-                  src="smirkspace.jpg"
-                />
-                <div
-                  className="overlay"
-                >
-                  <div
-                    className="portfolio-item-meta"
-                  >
-                    <h5>
-                      Smirkspace
-                    </h5>
-                    <p>
-                      (MVP Only) A React and Meteor based chat University project.
                     </p>
                   </div>
                 </div>
@@ -697,7 +600,7 @@ exports[`tree snapshot matches correctly 1`] = `
         <p
           className="lead"
         >
-          If you have any questions or would like to reach out to me, send me an email using the form below.
+          Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you? Send me an email using the form below.
         </p>
       </div>
     </div>
@@ -707,104 +610,6 @@ exports[`tree snapshot matches correctly 1`] = `
       <div
         className="eight columns"
       >
-        <form
-          action=""
-          id="contactForm"
-          method="post"
-          name="contactForm"
-        >
-          <fieldset>
-            <div>
-              <label
-                htmlFor="contactName"
-              >
-                Name 
-                <span
-                  className="required"
-                >
-                  *
-                </span>
-              </label>
-              <input
-                defaultValue=""
-                id="contactName"
-                name="contactName"
-                size="35"
-                type="text"
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="contactEmail"
-              >
-                Email 
-                <span
-                  className="required"
-                >
-                  *
-                </span>
-              </label>
-              <input
-                defaultValue=""
-                id="contactEmail"
-                name="contactEmail"
-                size="35"
-                type="text"
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="contactSubject"
-              >
-                Subject
-              </label>
-              <input
-                defaultValue=""
-                id="contactSubject"
-                name="contactSubject"
-                size="35"
-                type="text"
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="contactMessage"
-              >
-                Message 
-                <span
-                  className="required"
-                >
-                  *
-                </span>
-              </label>
-              <textarea
-                cols="50"
-                id="contactMessage"
-                name="contactMessage"
-                rows="15"
-              />
-            </div>
-            <div>
-              <button
-                className="submit"
-              >
-                Submit
-              </button>
-              <span
-                id="image-loader"
-              >
-                <i
-                  className="fa fa-refresh fa-spin fa-3x fa-fw"
-                />
-                <span
-                  className="sr-only"
-                >
-                  Loading...
-                </span>
-              </span>
-            </div>
-          </fieldset>
-        </form>
         <div
           id="message-warning"
         >
@@ -827,8 +632,19 @@ exports[`tree snapshot matches correctly 1`] = `
           className="widget widget_contact"
         >
           <h4>
-            Address and Phone
+            Contact Information
           </h4>
+          <h5>
+            Phone
+          </h5>
+          (661) 236-5956
+          <h5>
+            Email
+          </h5>
+          sjconaway48@gmail.com
+          <h5>
+            Snail Mail
+          </h5>
           <p
             className="address"
           >
@@ -908,14 +724,28 @@ exports[`tree snapshot matches correctly 1`] = `
              Steven Conaway
           </li>
           <li>
-            Design by
-             
-            <a
-              href="http://www.styleshout.com/"
-              title="Styleshout"
-            >
-              Styleshout
-            </a>
+            <span>
+              Original Design by
+               
+              <a
+                href="http://www.styleshout.com/"
+                title="Styleshout"
+              >
+                Styleshout
+              </a>
+            </span>
+          </li>
+          <li>
+            <span>
+              Converted to ReactJS by
+               
+              <a
+                href="https://github.com/tbakerx/react-resume-template"
+                title="Tim Baker"
+              >
+                Tim Baker
+              </a>
+            </span>
           </li>
         </ul>
       </div>
