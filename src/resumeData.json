@@ -96,34 +96,10 @@
     "portfolio": {
         "projects": [
             {
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
-                "image": {"uri": "canadian-wanderlust.jpg", "local": true},
-                "url": "https://www.canadianwanderlust.com"
-            },
-            {
-                "title": "Fury Fighting Gear",
-                "category": "(offline now) A fighting gear company I started",
-                "image": {"uri": "fury-fighting-gear.jpg", "local": true},
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": {"uri": "original-thai-food.jpg", "local": true},
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-            },
-            {
                 "title": "Resume Website",
                 "category": "A React based resume website template",
                 "image": {"uri": "resume-website.png", "local": true},
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Smirkspace",
-                "category": "(MVP Only) A React and Meteor based chat University project.",
-                "image": {"uri": "smirkspace.jpg", "local": true},
-                "url": "http://www.smirkspace.com"
+                "url": "https://www.stevenconaway.me"
             }
         ]
     },
