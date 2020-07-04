@@ -2,7 +2,7 @@ import React from 'react';
 
 import resumeData from './../../resumeData.json';
 
-const Contact = ({}) => {
+const Contact = () => {
     return (
         <section id='contact'>
             <div className='row section-head'>
