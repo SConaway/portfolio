@@ -33,7 +33,7 @@ body {
 header {
     position: relative;
     /* height: 800px; */
-    /* min-height: 500px; */
+    min-height: 700px;
     width: 100%;
     background: #161415 url(./../assets/images/header-background.jpg) no-repeat
         top center;
