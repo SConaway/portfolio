@@ -16,7 +16,7 @@ const Contact = () => {
                 <div className='ten columns'>
                     <p className='lead'>
                         Have a project for me? Think I'd be a good fit for your
-                        team? I'd love to hear from you? Send me an email using
+                        team? I'd love to hear from you. Send me an email using
                         the form below.
                     </p>
                 </div>

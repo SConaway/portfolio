@@ -33,7 +33,7 @@
         font-weight: bold;
     }
     header .banner-text h3 {
-        font: 2em/1.5em 'Open Sans', sans-serif;
+        font: 2em/1.25em 'Open Sans', sans-serif;
         width: 80%;
     }
     header .banner-text hr {
@@ -208,7 +208,7 @@
         font-weight: bold;
     }
     header .banner-text h3 {
-        font: 2em/1.5em 'Open Sans', sans-serif;
+        font: 2em/1.25em 'Open Sans', sans-serif;
         width: 85%;
     }
     header .banner-text hr {
@@ -219,11 +219,11 @@
     /* header social links */
     header .social {
         margin: 18px 0 24px 0;
-        font-size: 24px;
+        font-size: 30px;
         line-height: 36px;
     }
     header .social li {
-        margin: 0 10px;
+        /* margin: 0 10px; */
     }
 
     /* scrolldown link */
@@ -431,16 +431,16 @@
         margin: 0 auto 24px auto;
     }
     header .banner-text h3 {
-        font: 2em/1.5em 'Open Sans', sans-serif;
+        font: 2em/1.25em 'Open Sans', sans-serif;
         width: 90%;
     }
 
     /* header social links */
     header .social {
-        font-size: 20px;
+        font-size: 30px;
     }
     header .social li {
-        margin: 0 6px;
+        /* margin: 0 6px; */
     }
 
     /* footer
