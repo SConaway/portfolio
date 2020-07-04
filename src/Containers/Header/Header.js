@@ -54,7 +54,7 @@ const Header = () => {
             <div className='row banner'>
                 <div className='banner-text'>
                     <h1 className='responsive-headline'>
-                        I'm {resumeData.main.name}.
+                        {resumeData.main.name}
                     </h1>
                     <h3>
                         I'm an aspiring computer scientist and electrical

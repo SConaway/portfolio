@@ -15,15 +15,16 @@ const Contact = ({}) => {
 
                 <div className='ten columns'>
                     <p className='lead'>
-                        If you have any questions or would like to reach out to
-                        me, send me an email using the form below.
+                        Have a project for me? Think I'd be a good fit for your
+                        team? I'd love to hear from you? Send me an email using
+                        the form below.
                     </p>
                 </div>
             </div>
 
             <div className='row'>
                 <div className='eight columns'>
-                    <form
+                    {/* <form
                         action=''
                         method='post'
                         id='contactForm'
@@ -87,7 +88,7 @@ const Contact = ({}) => {
                                 </span>
                             </div>
                         </fieldset>
-                    </form>
+                    </form> */}
 
                     <div id='message-warning'> Error boy</div>
                     <div id='message-success'>
@@ -99,7 +100,12 @@ const Contact = ({}) => {
 
                 <aside className='four columns footer-widgets'>
                     <div className='widget widget_contact'>
-                        <h4>Address and Phone</h4>
+                        <h4>Contact Information</h4>
+                        <h5>Phone</h5>
+                        {resumeData.main.phone}
+                        <h5>Email</h5>
+                        {resumeData.main.email}
+                        <h5>Snail Mail</h5>
                         <p className='address'>
                             {resumeData.main.name}
                             <br />

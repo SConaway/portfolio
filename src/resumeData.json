@@ -39,10 +39,10 @@
         "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
         "education": [
             {
-                "school": "St. Monica Academy",
-                "degree": "Masters in Beer tasting",
+                "school": "Saint Monica Academy",
+                "degree": "High School Diploma",
                 "graduated": "June 2021",
-                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+                "description": "While the high school I have attended does not offer classes in the ever-changing fields of technology, I have found a way to integrate these fields into my study: I am the founding president of my school's VEX Robotics Club and have taken online courses in STEM fields independently. Additionally, I have significant STEM experience outside of my school."
             }
         ],
         "work": [
@@ -50,19 +50,24 @@
                 "company": "We2Link",
                 "title": "Mobile Application Developer",
                 "years": "August 2019 – Present",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+                "description": "Designing and programming a React Native mobile application for iOS and Android to help those with traumatic brain injuries. This project includes the Agile Development methodology and use of GitHub as a code repository and issue tracker, and Jira for project management."
             },
             {
                 "company": "East Los Angeles Community Youth Center",
                 "title": "Tech Instructor",
-                "years": "June 2018 – Present",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+                "years": "June 2018 – March 2020",
+                "description": "Taught a \"How to Build your own Arduino-based Smart Car\" class, \"Introduction to Drones\", and \"LEGO Robotics\" to underserved elementary- and middle-school students. Our Robotics team won second place in the First Annual Boyle Heights Robotics Competition. Also, developed the curriculum currently in use for the \"How to Build your own Arduino-based Smart Car\" class. "
             },
             {
                 "company": "Unlocked Escape Rooms",
                 "title": "Embedded Application Developer",
                 "years": "November 2018 – May 2019",
-                "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+                "description": "Designed and programmed Arduino-based props for escape rooms, such as RFID door locks. These props required the Arduino to interface with various hardware, such as RFID tags, electronic locks, and arrays of buttons."
+            },
+            {
+                "title": "Tutor",
+                "years": "January 2018 – February 2020",
+                "description": "Tutoring middle- and high- school students from Saint Monica Academy in various subjects, including Latin, Math, and Java Programming."
             }
         ],
         "skills": [
@@ -93,31 +98,31 @@
             {
                 "title": "Canadian Wanderlust",
                 "category": "My Travel Blog for my post-university travels",
-                "image": "canadian-wanderlust.jpg",
+                "image": {"uri": "canadian-wanderlust.jpg", "local": true},
                 "url": "https://www.canadianwanderlust.com"
             },
             {
                 "title": "Fury Fighting Gear",
                 "category": "(offline now) A fighting gear company I started",
-                "image": "fury-fighting-gear.jpg",
+                "image": {"uri": "fury-fighting-gear.jpg", "local": true},
                 "url": "http://www.timbakerdev.com"
             },
             {
                 "title": "Original Thai Food",
                 "category": "Website I built for a restaurant I like in Thailand",
-                "image": "original-thai-food.jpg",
+                "image": {"uri": "original-thai-food.jpg", "local": true},
                 "url": "http://www.timbakerdev.com/originalthaifood.github.io"
             },
             {
                 "title": "Resume Website",
                 "category": "A React based resume website template",
-                "image": "resume-website.jpg",
+                "image": {"uri": "resume-website.png", "local": true},
                 "url": "http://www.timbakerdev.com"
             },
             {
                 "title": "Smirkspace",
                 "category": "(MVP Only) A React and Meteor based chat University project.",
-                "image": "smirkspace.jpg",
+                "image": {"uri": "smirkspace.jpg", "local": true},
                 "url": "http://www.smirkspace.com"
             }
         ]

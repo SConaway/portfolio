@@ -72,8 +72,8 @@ header .banner-text h1 {
     font-weight: bold;
 }
 header .banner-text h3 {
-    font: 18px/1.9em 'Libre Baskerville', serif;
-    color: #a8a8a8;
+    font: 2em/1.5em 'Open Sans', sans-serif;
+    color: #ddd;
     margin: 0 auto;
     width: 70%;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
@@ -312,15 +312,15 @@ ul#nav li.current a {
     border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
-    font: 16px/24px 'Libre Baskerville', serif;
+    font: 16px/24px 'Open Sans', sans-serif;
     color: #6e7881;
-    margin-bottom: 18px;
+    margin-bottom: 9px;
     margin-top: 9px;
     font-style: italic;
 }
-#resume .info span {
-    margin-right: 5px;
-    margin-left: 5px;
+#resume .info span.bullet {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 #resume .date {
     font: 15px/24px 'Open Sans', sans-serif;
@@ -757,7 +757,7 @@ call-to-action .button {
     content: none;
 }
 #testimonials blockquote p {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 0;
     font-size: 24px;
     line-height: 48px;
@@ -938,10 +938,17 @@ call-to-action .button {
 } */
 
 #contact h4 {
-    font: 16px/24px 'Open Sans', sans-serif;
+    font: 18px/24px 'Open Sans', sans-serif;
     color: #ebeeee;
     margin-bottom: 6px;
     font-weight: bold;
+}
+#contact h5 {
+    font: 14px/16px 'Open Sans', sans-serif;
+    color: #ebeeee;
+    margin-bottom: 6px;
+    margin-top: 12px;
+    font-weight: 500;
 }
 #contact p.lead {
     font: 18px/36px 'opensans-light', sans-serif;

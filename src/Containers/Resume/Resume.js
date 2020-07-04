@@ -19,7 +19,8 @@ const Resume = () => {
                                 <div key={item.school}>
                                     <h3>{item.school}</h3>
                                     <p className='info'>
-                                        {item.degree} <span>&bull;</span>
+                                        {item.degree}{' '}
+                                        <span className='bullet'>&bull;</span>
                                         <em className='date'>
                                             {item.graduated}
                                         </em>
@@ -35,17 +36,26 @@ const Resume = () => {
             <div className='row work'>
                 <div className='three columns header-col'>
                     <h1>
-                        <span>Work</span>
+                        <span>Work Experience</span>
                     </h1>
                 </div>
 
                 <div className='nine columns main-col'>
                     {resumeData.resume.work.map((item) => (
-                        <div key={item.company}>
-                            <h3>{item.company}</h3>
+                        <div key={item.title}>
+                            <h3>{item.title}</h3>
                             <p className='info'>
-                                {item.title}
-                                <span>&bull;</span>{' '}
+                                <span
+                                    style={{
+                                        fontWeight: 'bold',
+                                        textDecoration: 'underline black solid',
+                                    }}
+                                >
+                                    {item.company}
+                                </span>
+                                {item.company && item.years && (
+                                    <span className='bullet'>&bull;</span>
+                                )}
                                 <em className='date'>{item.years}</em>
                             </p>
                             <p>{item.description}</p>

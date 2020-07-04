@@ -22,8 +22,12 @@ const Portfolio = () => {
                                     <a href={item.url} title={item.title}>
                                         <img
                                             alt={item.title}
-                                            src={require('./../../assets/images/portfolio/' +
-                                                item.image)}
+                                            src={
+                                                item.image.local
+                                                    ? require('./../../assets/images/portfolio/' +
+                                                          item.image.uri)
+                                                    : item.image.uri
+                                            }
                                         />
                                         <div className='overlay'>
                                             <div className='portfolio-item-meta'>

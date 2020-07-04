@@ -234,8 +234,8 @@ h4,
 h5,
 h6 {
     color: #313131;
-    font-family: 'opensans-bold', sans-serif;
-    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 h1 a,
 h2 a,
@@ -295,7 +295,8 @@ em {
 }
 strong,
 b {
-    font: 15px/30px 'opensans-bold', sans-serif;
+    font: 15px/30px 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 small {
     font-size: 11px;
@@ -321,7 +322,7 @@ blockquote:before {
     left: 0;
 }
 blockquote p {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 0;
     font-size: 18px;
     line-height: 36px;
@@ -383,7 +384,8 @@ blockquote cite a:visited {
 
 /* Abbreviations */
 abbr {
-    font-family: 'opensans-bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: 0.5px;
@@ -399,7 +401,8 @@ abbr:hover {
     margin: 0;
     padding: 14px 6px 0 0;
     font-size: 84px;
-    font-family: /* Copperplate */ 'opensans-bold', sans-serif;
+    font-family: /* Copperplate */ 'Open Sans', sans-serif;
+    font-weight: bold;
     line-height: 60px;
     text-indent: 0;
     background: transparent;
@@ -513,7 +516,8 @@ li p {
 .stats-tabs li a {
     display: inline-block;
     font-size: 22px;
-    font-family: 'opensans-bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     border: none;
     color: #313131;
 }
@@ -587,7 +591,8 @@ dd {
     padding: 0;
 }
 .pagination .page-numbers {
-    font: 15px/18px 'opensans-bold', sans-serif;
+    font: 15px/18px 'Open Sans', sans-serif;
+    font-weight: bold;
     display: inline-block;
     padding: 6px 10px;
     margin-right: 3px;
@@ -645,7 +650,8 @@ button,
 input[type='submit'],
 input[type='reset'],
 input[type='button'] {
-    font: 16px/30px 'opensans-bold', sans-serif;
+    font: 16px/30px 'Open Sans', sans-serif;
+    font-weight: bold;
     background: #11abb0;
     display: inline-block;
     text-decoration: none;
@@ -751,7 +757,8 @@ textarea {
 
 label,
 legend {
-    font: 16px/24px 'opensans-bold', sans-serif;
+    font: 16px/24px 'Open Sans', sans-serif;
+    font-weight: bold;
     margin: 12px 0;
     color: #3d4145;
     display: block;

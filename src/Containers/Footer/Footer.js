@@ -23,13 +23,26 @@ const Footer = () => {
                             Conaway
                         </li>
                         <li>
-                            Design by{' '}
-                            <a
-                                title='Styleshout'
-                                href='http://www.styleshout.com/'
-                            >
-                                Styleshout
-                            </a>
+                            <span>
+                                Original Design by{' '}
+                                <a
+                                    title='Styleshout'
+                                    href='http://www.styleshout.com/'
+                                >
+                                    Styleshout
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                Converted to ReactJS by{' '}
+                                <a
+                                    title='Tim Baker'
+                                    href='https://github.com/tbakerx/react-resume-template'
+                                >
+                                    Tim Baker
+                                </a>
+                            </span>
                         </li>
                     </ul>
                 </div>
