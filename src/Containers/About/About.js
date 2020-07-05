@@ -19,10 +19,14 @@ const About = () => {
                     <h2>About Me</h2>
 
                     <p>
-                        Use this bio section as your way of describing yourself
-                        and saying what you do, what technologies you like to
-                        use or feel most comfortable with, describing your
-                        personality, or whatever else you feel like throwing in.
+                        While the high school I have attended does not offer
+                        classes in the ever-changing fields of technology, I
+                        have found a way to integrate these fields into my
+                        study: I am the founding president of my school's VEX
+                        Robotics Club and have taken online courses in STEM
+                        fields independently. Additionally, I have significant
+                        STEM experience outside of my school. I enjoy sharing my
+                        knowledge and experience with others in my community.
                     </p>
                     <div className='row'>
                         <div className='columns contact-details'>

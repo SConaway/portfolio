@@ -15,16 +15,14 @@ const Testimonials = () => {
 
                     <div className='ten columns flex-container'>
                         <ul className='slides'>
-                            {resumeData.testimonials.testimonials.map(
-                                (item) => (
-                                    <li key={item.user}>
-                                        <blockquote>
-                                            <p>{item.text}</p>
-                                            <cite>{item.user}</cite>
-                                        </blockquote>
-                                    </li>
-                                ),
-                            )}
+                            {resumeData.testimonials.map((item) => (
+                                <li key={item.user}>
+                                    <blockquote>
+                                        <p>{item.text}</p>
+                                        <cite>{item.user}</cite>
+                                    </blockquote>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>
