@@ -452,32 +452,6 @@ exports[`tree snapshot matches correctly 1`] = `
           >
             <li>
               <span
-                className="bar-expand git"
-                style={
-                  Object {
-                    "width": "60%",
-                  }
-                }
-              />
-              <em>
-                Git
-              </em>
-            </li>
-            <li>
-              <span
-                className="bar-expand reactjs"
-                style={
-                  Object {
-                    "width": "50%",
-                  }
-                }
-              />
-              <em>
-                ReactJS
-              </em>
-            </li>
-            <li>
-              <span
                 className="bar-expand react native"
                 style={
                   Object {
@@ -504,19 +478,6 @@ exports[`tree snapshot matches correctly 1`] = `
             </li>
             <li>
               <span
-                className="bar-expand css"
-                style={
-                  Object {
-                    "width": "80%",
-                  }
-                }
-              />
-              <em>
-                CSS
-              </em>
-            </li>
-            <li>
-              <span
                 className="bar-expand html5"
                 style={
                   Object {
@@ -539,6 +500,45 @@ exports[`tree snapshot matches correctly 1`] = `
               />
               <em>
                 Arduino
+              </em>
+            </li>
+            <li>
+              <span
+                className="bar-expand css"
+                style={
+                  Object {
+                    "width": "80%",
+                  }
+                }
+              />
+              <em>
+                CSS
+              </em>
+            </li>
+            <li>
+              <span
+                className="bar-expand git"
+                style={
+                  Object {
+                    "width": "60%",
+                  }
+                }
+              />
+              <em>
+                Git
+              </em>
+            </li>
+            <li>
+              <span
+                className="bar-expand reactjs"
+                style={
+                  Object {
+                    "width": "50%",
+                  }
+                }
+              />
+              <em>
+                ReactJS
               </em>
             </li>
           </ul>

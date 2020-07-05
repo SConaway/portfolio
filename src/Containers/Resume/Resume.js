@@ -76,18 +76,24 @@ const Resume = () => {
 
                     <div className='bars'>
                         <ul className='skills'>
-                            {resumeData.resume.skills.map((item) => (
-                                <li key={item.name}>
-                                    <span
-                                        style={{width: item.level}}
-                                        className={
-                                            'bar-expand ' +
-                                            item.name.toLowerCase()
-                                        }
-                                    ></span>
-                                    <em>{item.name}</em>
-                                </li>
-                            ))}
+                            {resumeData.resume.skills
+                                .sort(
+                                    (a, b) =>
+                                        b.level.split('%')[0] -
+                                        a.level.split('%')[0],
+                                )
+                                .map((item) => (
+                                    <li key={item.name}>
+                                        <span
+                                            style={{width: item.level}}
+                                            className={
+                                                'bar-expand ' +
+                                                item.name.toLowerCase()
+                                            }
+                                        ></span>
+                                        <em>{item.name}</em>
+                                    </li>
+                                ))}
                         </ul>
                     </div>
                 </div>
