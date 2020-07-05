@@ -72,7 +72,7 @@ const Resume = () => {
                 </div>
 
                 <div className='nine columns main-col'>
-                    <p>{resumeData.resume.skillmessage}</p>
+                    <p>{resumeData.resume.skillMessage}</p>
 
                     <div className='bars'>
                         <ul className='skills'>

@@ -12,6 +12,7 @@ const About = () => {
                         src={require('./../../assets/images/' +
                             resumeData.main.image)}
                         alt='Tim Baker Profile Pic'
+                        defer
                     />
                 </div>
                 <div className='nine columns main-col'>

@@ -28,6 +28,7 @@ const Portfolio = () => {
                                                           item.image.uri)
                                                     : item.image.uri
                                             }
+                                            defer
                                         />
                                         <div className='overlay'>
                                             <div className='portfolio-item-meta'>

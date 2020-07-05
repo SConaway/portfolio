@@ -168,7 +168,8 @@ exports[`tree snapshot matches correctly 1`] = `
         <img
           alt="Tim Baker Profile Pic"
           className="profile-pic"
-          src="profilepic.jpg"
+          defer={true}
+          src="profilePic.jpg"
         />
       </div>
       <div
@@ -222,6 +223,7 @@ exports[`tree snapshot matches correctly 1`] = `
             <p>
               <a
                 className="button"
+                href="https://stevenconaway.me/resume-2020-07-05.pdf"
               >
                 <i
                   className="fa fa-download"
@@ -440,7 +442,7 @@ exports[`tree snapshot matches correctly 1`] = `
         className="nine columns main-col"
       >
         <p>
-          Here you can create a short write-up of your skills to show off to employers
+          I've gained knowledge of many topics in Computer Science through my own projects and through those I've done for others.
         </p>
         <div
           className="bars"
@@ -489,6 +491,19 @@ exports[`tree snapshot matches correctly 1`] = `
             </li>
             <li>
               <span
+                className="bar-expand modern javascript"
+                style={
+                  Object {
+                    "width": "100%",
+                  }
+                }
+              />
+              <em>
+                Modern JavaScript
+              </em>
+            </li>
+            <li>
+              <span
                 className="bar-expand css"
                 style={
                   Object {
@@ -511,6 +526,19 @@ exports[`tree snapshot matches correctly 1`] = `
               />
               <em>
                 HTML5
+              </em>
+            </li>
+            <li>
+              <span
+                className="bar-expand arduino"
+                style={
+                  Object {
+                    "width": "90%",
+                  }
+                }
+              />
+              <em>
+                Arduino
               </em>
             </li>
           </ul>
@@ -546,6 +574,7 @@ exports[`tree snapshot matches correctly 1`] = `
               >
                 <img
                   alt="Resume Website"
+                  defer={true}
                   src="resume-website.png"
                 />
                 <div
