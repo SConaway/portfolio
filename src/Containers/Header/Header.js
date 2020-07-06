@@ -58,10 +58,8 @@ const Header = () => {
                     </h1>
                     <h3>
                         I'm an aspiring computer scientist and electrical
-                        engineer.
-                        <hr />
-                        Currently, I am seeking opportunities in the fields of
-                        Computer Science and Electrical Engineering.
+                        engineer currently seeking opportunities in these
+                        fields.
                     </h3>
                     <hr />
                     <ul className='social'>

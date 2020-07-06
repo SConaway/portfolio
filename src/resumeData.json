@@ -41,7 +41,7 @@
                 "school": "Saint Monica Academy",
                 "degree": "High School Diploma",
                 "graduated": "June 2021",
-                "description": "As a classical academy, Saint Monica Academy teaches her students critical thinking skills in addition to giving them an academically rigorous education. The teachers inspire students to excel at all things they attempt. As a school, Saint Monica Academy is one of few schools in the country to be recognized as a Catholic Education Honor Roll School by the Cardinal Newman Society."
+                "description": "Saint Monica Academy offers her students a classical education, teaching them critical thinking skills in addition to giving them an academically rigorous education. The teachers inspire students to excel at all things they attempt. While attending Saint Monica Academy's high school, I have received many honors. This past year, I was nominated to be president of our Honor Society. I am the founding president of our Robotics Club, which added an Engineering Track this year. As the project leader, I was responsible for organization of the project, planning meetings, and other administrative tasks."
             }
         ],
         "work": [
@@ -66,10 +66,10 @@
             {
                 "title": "Tutor",
                 "years": "January 2018 – February 2020",
-                "description": "Tutoring middle- and high- school students from Saint Monica Academy in various subjects, including Latin, Math, and Java Programming."
+                "description": "Tutored middle- and high- school students from Saint Monica Academy in various subjects, including Latin, Math, and Java Programming."
             }
         ],
-        "skillMessage": "I've gained knowledge of many topics in Computer Science through my own projects and through those I've done for others.",
+        "skillMessage": "I've gained knowledge in many areas of Computer Science through my own projects and by the work done for others.",
         "skills": [
             {
                 "name": "Git",
@@ -98,6 +98,10 @@
             {
                 "name": "Arduino",
                 "level": "90%"
+            },
+            {
+                "name": "Python",
+                "level": "70%"
             }
         ]
     },
@@ -105,7 +109,7 @@
         "projects": [
             {
                 "title": "Resume Website",
-                "category": "A React based resume website template",
+                "category": "A resume website based on ReactJS.",
                 "image": {"uri": "resume-website.png", "local": true},
                 "url": "https://www.stevenconaway.me"
             }

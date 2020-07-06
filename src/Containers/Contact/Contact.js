@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className='two columns header-col'>
                     <h1>
                         <i className='fa fa-envelope'></i>
-                        <span>Get In Touch.</span>
+                        <span>Get In Touch</span>
                     </h1>
                 </div>
 

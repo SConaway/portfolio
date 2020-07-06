@@ -468,7 +468,8 @@ ul#nav li.current a {
     padding-bottom: 60px;
 }
 #portfolio h1 {
-    font: 15px/24px 'opensans-semibold', sans-serif;
+    font: 15px/24px 'Open Sans', sans-serif;
+    font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
@@ -551,7 +552,7 @@ ul#nav li.current a {
     font-weight: bold;
 }
 .portfolio-item .portfolio-item-meta p {
-    font: 12px/18px 'opensans-light', sans-serif;
+    font: 12px/18px 'Open Sans', sans-serif;
     color: #c6c7c7;
     margin-bottom: 0;
 }
@@ -590,7 +591,7 @@ ul#nav li.current a {
     margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-    font: 11px/21px 'opensans-light', sans-serif;
+    font: 11px/21px 'Open Sans', sans-serif;
     color: #a1a1a1;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -698,7 +699,8 @@ call-to-action .button {
     color: #0d0d0d;
 }
 #call-to-action p span {
-    font-family: 'opensans-semibold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
     color: #d8d8d8;
 }
 
@@ -951,7 +953,7 @@ call-to-action .button {
     font-weight: 500;
 }
 #contact p.lead {
-    font: 18px/36px 'opensans-light', sans-serif;
+    font: 18px/36px 'Open Sans', sans-serif;
     padding-right: 3%;
 }
 #contact .header-col {

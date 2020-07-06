@@ -84,9 +84,7 @@ exports[`tree snapshot matches correctly 1`] = `
           Steven Conaway
         </h1>
         <h3>
-          I'm an aspiring computer scientist and electrical engineer.
-          <hr />
-          Currently, I am seeking opportunities in the fields of Computer Science and Electrical Engineering.
+          I'm an aspiring computer scientist and electrical engineer currently seeking opportunities in these fields.
         </h3>
         <hr />
         <ul
@@ -179,7 +177,7 @@ exports[`tree snapshot matches correctly 1`] = `
           About Me
         </h2>
         <p>
-          While the high school I have attended does not offer classes in the ever-changing fields of technology, I have found a way to integrate these fields into my study: I am the founding president of my school's VEX Robotics Club and have taken online courses in STEM fields independently. Additionally, I have significant STEM experience outside of my school. I enjoy sharing my knowledge and experience with others in my community.
+          While the high school I have attended does not offer classes in the ever-changing fields of technology, I have found a way to integrate these fields into my study: I have taken online courses in STEM fields independently and am the founding president of my school's VEX Robotics Club. Additionally, I have significant STEM experience outside of my school. I enjoy sharing my knowledge and experience with others in my community. Most recently, I was the Recipient of the Environmental Justice Angel Award at the East Los Angeles Community Youth Center's annual Gala in November 2019.
         </p>
         <div
           className="row"
@@ -281,7 +279,7 @@ exports[`tree snapshot matches correctly 1`] = `
                 </em>
               </p>
               <p>
-                As a classical academy, Saint Monica Academy teaches her students critical thinking skills in addition to giving them an academically rigorous education. The teachers inspire students to excel at all things they attempt. As a school, Saint Monica Academy is one of few schools in the country to be recognized as a Catholic Education Honor Roll School by the Cardinal Newman Society.
+                Saint Monica Academy offers her students a classical education, teaching them critical thinking skills in addition to giving them an academically rigorous education. The teachers inspire students to excel at all things they attempt. While attending Saint Monica Academy's high school, I have received many honors. This past year, I was nominated to be president of our Honor Society. I am the founding president of our Robotics Club, which added an Engineering Track this year. As the project leader, I was responsible for organization of the project, planning meetings, and other administrative tasks.
               </p>
             </div>
           </div>
@@ -421,7 +419,7 @@ exports[`tree snapshot matches correctly 1`] = `
             </em>
           </p>
           <p>
-            Tutoring middle- and high- school students from Saint Monica Academy in various subjects, including Latin, Math, and Java Programming.
+            Tutored middle- and high- school students from Saint Monica Academy in various subjects, including Latin, Math, and Java Programming.
           </p>
         </div>
       </div>
@@ -442,7 +440,7 @@ exports[`tree snapshot matches correctly 1`] = `
         className="nine columns main-col"
       >
         <p>
-          I've gained knowledge of many topics in Computer Science through my own projects and through those I've done for others.
+          I've gained knowledge in many areas of Computer Science through my own projects and by the work done for others.
         </p>
         <div
           className="bars"
@@ -517,6 +515,19 @@ exports[`tree snapshot matches correctly 1`] = `
             </li>
             <li>
               <span
+                className="bar-expand python"
+                style={
+                  Object {
+                    "width": "70%",
+                  }
+                }
+              />
+              <em>
+                Python
+              </em>
+            </li>
+            <li>
+              <span
                 className="bar-expand git"
                 style={
                   Object {
@@ -587,7 +598,7 @@ exports[`tree snapshot matches correctly 1`] = `
                       Resume Website
                     </h5>
                     <p>
-                      A React based resume website template
+                      A resume website based on ReactJS.
                     </p>
                   </div>
                 </div>
@@ -619,7 +630,7 @@ exports[`tree snapshot matches correctly 1`] = `
             className="fa fa-envelope"
           />
           <span>
-            Get In Touch.
+            Get In Touch
           </span>
         </h1>
       </div>
