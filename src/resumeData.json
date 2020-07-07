@@ -110,8 +110,18 @@
             {
                 "title": "Resume Website",
                 "category": "A resume website based on ReactJS.",
-                "image": {"uri": "resume-website.png", "local": true},
+                "image": {
+                    "name": "resume-website",
+                    "extension": "png",
+                    "local": true
+                },
                 "url": "https://www.stevenconaway.me"
+            },
+            {
+                "title": "CircuitPython-based Sensor Board",
+                "category": "A drone-mounted PCB with air quality sensors based on an Adafruit Feather running CircuitPython.",
+                "image": {"name": "sensors", "extension": "png", "local": true},
+                "url": "https://github.com/ELAScience/AQ-drone"
             }
         ]
     },

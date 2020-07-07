@@ -612,6 +612,45 @@ exports[`tree snapshot matches correctly 1`] = `
               </a>
             </div>
           </div>
+          <div
+            className="columns portfolio-item"
+          >
+            <div
+              className="item-wrap"
+            >
+              <a
+                href="https://github.com/ELAScience/AQ-drone"
+                title="CircuitPython-based Sensor Board"
+              >
+                <img
+                  alt="CircuitPython-based Sensor Board"
+                  defer={true}
+                  src="sensors.png"
+                />
+                <div
+                  className="overlay"
+                >
+                  <div
+                    className="portfolio-item-meta"
+                  >
+                    <h5>
+                      CircuitPython-based Sensor Board
+                    </h5>
+                    <p>
+                      A drone-mounted PCB with air quality sensors based on an Adafruit Feather running CircuitPython.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  className="link-icon"
+                >
+                  <i
+                    className="fa fa-link"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

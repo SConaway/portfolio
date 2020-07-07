@@ -24,8 +24,7 @@ const Portfolio = () => {
                                             alt={item.title}
                                             src={
                                                 item.image.local
-                                                    ? require('./../../assets/images/portfolio/' +
-                                                          item.image.uri)
+                                                    ? require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}.png`)
                                                     : item.image.uri
                                             }
                                             defer
