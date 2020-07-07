@@ -580,7 +580,7 @@ exports[`tree snapshot matches correctly 1`] = `
               className="item-wrap"
             >
               <a
-                href="https://www.stevenconaway.me"
+                href="https://github.com/SConaway/portfolio"
                 title="Resume Website"
               >
                 <img
