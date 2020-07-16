@@ -274,8 +274,8 @@ h6 {
     font-size: 14px;
     line-height: 30px;
 }
-.subheader {
-}
+/* .subheader {
+} */
 
 p {
     margin: 0 0 30px 0;
@@ -484,10 +484,10 @@ li {
     line-height: 18px;
     margin-bottom: 12px;
 }
-ul.large li {
+/* ul.large li {
 }
 li p {
-}
+} */
 
 /* ---------------------------------------------------------------------
 /*  Stats Tab Markup
@@ -626,9 +626,9 @@ dd {
     background-color: #e6e8eb;
     color: #a9adb2;
 }
-.pagination .prev,
+/* .pagination .prev,
 .pagination .next {
-}
+} */
 
 /*  5. Images  --------------------------------------------------------- */
 
@@ -731,7 +731,7 @@ select {
     margin: 0 0 24px 0;
     border: 0;
     outline: none;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     min-width: 225px;
     max-width: 100%;
     font-size: 15px;

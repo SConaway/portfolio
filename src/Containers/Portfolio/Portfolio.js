@@ -24,9 +24,13 @@ const Portfolio = () => {
                                             alt={item.title}
                                             src={
                                                 item.image.local
-                                                    ? require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}.png`)
+                                                    ? require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}-full.png`)
                                                     : item.image.uri
                                             }
+                                            {...(item.image.local && {
+                                                srcSet: `${require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}-300.png`)} 300w, ${require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}-500.png`)} 500w, ${require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}-600.png`)} 600w, ${require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}-900.png`)} 900w, ${require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}-1200.png`)} 1200w`,
+                                                // sizes: '700px',
+                                            })}
                                             defer
                                         />
                                         <div className='overlay'>
