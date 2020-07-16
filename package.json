@@ -22,7 +22,7 @@
         "eject": "react-scripts eject",
         "pretty": "prettier --write .",
         "start": "react-scripts start",
-        "test": "react-scripts test"
+        "test": "cd src && node images.js && react-scripts test"
     },
     "eslintConfig": {
         "extends": "react-app"
