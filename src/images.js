@@ -29,17 +29,16 @@ projects.forEach((project) => {
         // );
     });
 
-    image
-        .toFile(
-            `assets/images/portfolio/${project.image.name}/${project.image.name}-full.png`,
-            function (err) {
-                err != null && console.log(err);
-            },
-        )
-        .toFile(
-            `assets/images/portfolio/${project.image.name}/${project.image.name}-full.webp`,
-            function (err) {
-                err != null && console.log(err);
-            },
-        );
+    image.toFile(
+        `assets/images/portfolio/${project.image.name}/${project.image.name}-full.png`,
+        function (err) {
+            err != null && console.log(err);
+        },
+    );
+    // .toFile(
+    //     `assets/images/portfolio/${project.image.name}/${project.image.name}-full.webp`,
+    //     function (err) {
+    //         err != null && console.log(err);
+    //     },
+    // );
 });
