@@ -26,6 +26,7 @@ yarn-error.log*
 
 # Ignore built images
 **/*.jpg
+**/*.jpeg
 **/*.png
 **/*.webp
 # But not the originals
