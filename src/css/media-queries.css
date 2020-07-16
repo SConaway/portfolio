@@ -134,7 +134,7 @@
 
         position: relative;
         top: 0px;
-        right: 30px;
+        /* right: 30px; */
     }
 
     #nav-wrap > a:before,
