@@ -586,7 +586,8 @@ exports[`tree snapshot matches correctly 1`] = `
                 <img
                   alt="Resume Website"
                   defer={true}
-                  src="resume-website.png"
+                  src="resume-website-full.png"
+                  srcSet="resume-website-300.png 300w, resume-website-500.png 500w, resume-website-600.png 600w, resume-website-900.png 900w, resume-website-1200.png 1200w"
                 />
                 <div
                   className="overlay"
@@ -625,7 +626,8 @@ exports[`tree snapshot matches correctly 1`] = `
                 <img
                   alt="CircuitPython-based Sensor Board"
                   defer={true}
-                  src="sensors.png"
+                  src="sensors-full.png"
+                  srcSet="sensors-300.png 300w, sensors-500.png 500w, sensors-600.png 600w, sensors-900.png 900w, sensors-1200.png 1200w"
                 />
                 <div
                   className="overlay"
