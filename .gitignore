@@ -23,3 +23,10 @@ yarn-debug.log*
 yarn-error.log*
 
 .vercel
+
+# Ignore built images
+**/*.jpg
+**/*.png
+**/*.webp
+# But not the originals
+!**/original.*
