@@ -557,7 +557,7 @@ exports[`tree snapshot matches correctly 1`] = `
             </li>
             <li>
               <span
-                className="bar-expand css"
+                className="bar-expand css3"
                 style={
                   Object {
                     "width": "80%",
@@ -565,7 +565,7 @@ exports[`tree snapshot matches correctly 1`] = `
                 }
               />
               <em>
-                CSS
+                CSS3
               </em>
             </li>
             <li>
