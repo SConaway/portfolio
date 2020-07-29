@@ -570,7 +570,7 @@ ul#nav li.current a {
 }
 
 /* popup modal */
-.popup-modal {
+/* .popup-modal {
     max-width: 550px;
     background: #fff;
     position: relative;
@@ -619,13 +619,13 @@ ul#nav li.current a {
 }
 .popup-modal a.popup-modal-dismiss {
     margin-left: 24px;
-}
+} */
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 
 /* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+/* .mfp-fade.mfp-wrap .mfp-content .popup-modal {
     opacity: 0;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
@@ -634,19 +634,19 @@ ul#nav li.current a {
     transition: all 200ms ease-in-out;
 }
 /* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+/* .mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
     opacity: 1;
-}
+} */
 /* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+/* .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
     opacity: 0;
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
 
-#call-to-action {
+/* #call-to-action {
     background: #212121;
     padding-top: 66px;
     padding-bottom: 48px;
@@ -686,14 +686,14 @@ ul#nav li.current a {
 #call-to-action p {
     color: #636363;
     font-size: 17px;
-}
+} */
 /*#
 call-to-action .button {
 	color:#fff;
    background: #0D0D0D;
 }
 */
-#call-to-action .button:hover,
+/* #call-to-action .button:hover,
 #call-to-action .button:active {
     background: #ffffff;
     color: #0d0d0d;
@@ -702,13 +702,13 @@ call-to-action .button {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     color: #d8d8d8;
-}
+} */
 
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
-#testimonials {
+/* #testimonials {
     background: #1f1f1f url(../assets/images/testimonials-bg.jpg) no-repeat
         center center;
     background-size: cover !important;
@@ -746,10 +746,10 @@ call-to-action .button {
     text-align: left;
     float: left;
     color: #fff;
-}
+} */
 
 /*	Blockquotes */
-#testimonials blockquote {
+/* #testimonials blockquote {
     margin: 0 0px 30px 0px;
     padding-left: 0;
     position: relative;
@@ -780,13 +780,13 @@ call-to-action .button {
 #testimonials blockquote cite a:visited {
     color: #8b9798;
     border: none;
-}
+} */
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
 /* Reset */
-.flexslider a:active,
+/* .flexslider a:active,
 .flexslider a:focus {
     outline: none;
 }
@@ -800,10 +800,10 @@ call-to-action .button {
 .slides li {
     margin: 0;
     padding: 0;
-}
+} */
 
 /* Necessary Styles */
-.flexslider {
+/* .flexslider {
     position: relative;
     zoom: 1;
     margin: 0;
@@ -814,48 +814,48 @@ call-to-action .button {
 }
 .flexslider .slides > li {
     position: relative;
-}
+} */
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li {
+/* .flexslider .slides > li {
     display: none;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-}
+} */
 /* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container {
+/* .flex-container {
     zoom: 1;
     position: relative;
-}
+} */
 
 /* Clearfix for .slides */
-.slides:before,
+/* .slides:before,
 .slides:after {
     content: ' ';
     display: table;
 }
 .slides:after {
     clear: both;
-}
+} */
 
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {
+/* .no-js .slides > li:first-child {
     display: block;
-}
+} */
 
 /* Slider Styles */
-.slides {
+/* .slides {
     zoom: 1;
-}
-.slides > li {
+} */
+/* .slides > li {
     /*margin-right: 5px; */
-    overflow: hidden;
-}
+/* overflow: hidden;
+} */
 
 /* Control Nav */
-.flex-control-nav {
+/* .flex-control-nav {
     width: 100%;
     position: absolute;
     bottom: -20px;
@@ -889,7 +889,7 @@ call-to-action .button {
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
     cursor: default;
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
@@ -1040,7 +1040,7 @@ call-to-action .button {
 }
 
 /* Twitter Feed */
-#twitter {
+/* #twitter {
     margin-top: 12px;
     padding: 0;
 }
@@ -1055,7 +1055,7 @@ call-to-action .button {
     font: 13px/36px 'Open Sans', Sans-serif;
     color: #474747 !important;
     border: none;
-}
+} */
 
 /* ------------------------------------------------------------------ */
 /* i. Footer

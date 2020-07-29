@@ -73,21 +73,21 @@
 
     /* Testimonials Section
    ------------------------------------------------------------------- */
-    #testimonials .header-col h1:before {
+    /* #testimonials .header-col h1:before {
         font-size: 66px;
         line-height: 66px;
     }
     #testimonials blockquote p {
         font-size: 22px;
         line-height: 46px;
-    }
+    } */
 
     /* Call to Action Section
    ------------------------------------------------------------------- */
-    #call-to-action .header-col h1:before {
+    /* #call-to-action .header-col h1:before {
         font-size: 66px;
         line-height: 66px;
-    }
+    } */
 
     /* Contact Section
    ------------------------------------------------------------------- */
@@ -269,7 +269,7 @@
 
     /* Call To Action Section
    /* ----------------------------------------------------------------- */
-    #call-to-action {
+    /* #call-to-action {
         text-align: center;
     }
     #call-to-action h1 {
@@ -287,20 +287,20 @@
     }
     #call-to-action p {
         font-size: 15px;
-    }
+    } */
 
     /* Portfolio Section
    /* ----------------------------------------------------------------- */
     #portfolio-wrapper .columns {
         margin-bottom: 40px;
     }
-    .popup-modal {
+    /* .popup-modal {
         max-width: 85%;
-    }
+    } */
 
     /* Testimonials Section
    ----------------------------------------------------------------------- */
-    #testimonials .text-container {
+    /* #testimonials .text-container {
         text-align: center;
     }
     #testimonials h1 {
@@ -322,7 +322,7 @@
     #testimonials blockquote p {
         font-size: 20px;
         line-height: 42px;
-    }
+    } */
 
     /* Control Nav */
     .flex-control-nav {

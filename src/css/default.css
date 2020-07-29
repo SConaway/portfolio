@@ -150,7 +150,7 @@ pre {
     word-wrap: break-word;
 }
 
-blockquote,
+/* blockquote,
 q {
     quotes: &#8220 &#8220;
 }
@@ -182,7 +182,7 @@ abbr[title],
 dfn[title] {
     border-bottom: 1px dotted;
     cursor: help;
-}
+} */
 
 table {
     border-collapse: collapse;
@@ -305,7 +305,7 @@ small {
 }
 
 /*	Blockquotes */
-blockquote {
+/* blockquote {
     margin: 30px 0px;
     padding-left: 40px;
     position: relative;
@@ -342,7 +342,7 @@ blockquote cite a,
 blockquote cite a:visited {
     color: #8b9798;
     border: none;
-}
+} */
 
 /* ---------------------------------------------------------------------
 /*  Pull Quotes Markup
@@ -354,7 +354,7 @@ blockquote cite a:visited {
 	 </aside>
 /*
 /* --------------------------------------------------------------------- */
-.pull-quote {
+/* .pull-quote {
     position: relative;
     padding: 18px 30px 18px 0px;
 }
@@ -381,10 +381,10 @@ blockquote cite a:visited {
 }
 .pull-quote blockquote:before {
     content: none;
-}
+} */
 
 /* Abbreviations */
-abbr {
+/* abbr {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-variant: small-caps;
@@ -394,21 +394,21 @@ abbr {
 }
 abbr:hover {
     cursor: help;
-}
+} */
 
 /* drop cap */
-.drop-cap:first-letter {
+/* .drop-cap:first-letter {
     float: left;
     margin: 0;
     padding: 14px 6px 0 0;
     font-size: 84px;
-    font-family: /* Copperplate */ 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     line-height: 60px;
     text-indent: 0;
     background: transparent;
     color: inherit;
-}
+} */
 
 hr {
     border: solid #e3e3e3;
@@ -499,7 +499,7 @@ li p {
     Extend this object into your markup.
 /*
 /* --------------------------------------------------------------------- */
-.stats-tabs {
+/* .stats-tabs {
     padding: 0;
     margin: 24px 0;
 }
@@ -531,10 +531,10 @@ li p {
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     color: #8b9798;
-}
+} */
 
 /* definition list */
-dl {
+/* dl {
     margin: 12px 0;
 }
 dt {
@@ -543,10 +543,10 @@ dt {
 }
 dd {
     margin: 0 0 0 20px;
-}
+} */
 
 /* Lining Definition Style Markup */
-.lining dt,
+/* .lining dt,
 .lining dd {
     display: inline;
     margin: 0;
@@ -562,10 +562,10 @@ dd {
 .lining dd:before {
     content: ': ';
     margin-left: -0.2em;
-}
+} */
 
 /* Dictionary Definition Style Markup */
-.dictionary-style dt {
+/* .dictionary-style dt {
     display: inline;
     counter-reset: definitions;
 }
@@ -579,10 +579,10 @@ dd {
 }
 .dictionary-style dd:before {
     content: counter(definitions, decimal) '. ';
-}
+} */
 
 /* Pagination */
-.pagination {
+/* .pagination {
     margin: 36px auto;
     text-align: center;
 }
@@ -625,7 +625,7 @@ dd {
 .pagination .inactive:hover {
     background-color: #e6e8eb;
     color: #a9adb2;
-}
+} */
 /* .pagination .prev,
 .pagination .next {
 } */
