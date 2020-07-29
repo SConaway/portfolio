@@ -19,11 +19,6 @@
                 "className": ["fab", "linkedin"]
             },
             {
-                "name": "instagram",
-                "url": "http://instagram.com/steven.conaway",
-                "className": ["fab", "instagram"]
-            },
-            {
                 "name": "github",
                 "url": "http://github.com/sconaway",
                 "className": ["fab", "github"]
