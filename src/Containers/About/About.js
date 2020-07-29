@@ -2,6 +2,8 @@ import React from 'react';
 
 import resumeData from './../../resumeData.json';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
 const About = () => {
     return (
         <section id='about'>
@@ -57,7 +59,7 @@ const About = () => {
                                     href={resumeData.main.resumeDownload}
                                     className='button'
                                 >
-                                    <i className='fa fa-download'></i>
+                                    <FontAwesomeIcon icon='download' />
                                     Download Resume
                                 </a>
                             </p>

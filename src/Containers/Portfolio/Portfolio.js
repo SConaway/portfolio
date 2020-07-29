@@ -2,6 +2,8 @@ import React from 'react';
 
 import resumeData from './../../resumeData.json';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
 const Portfolio = () => {
     return (
         <section id='portfolio'>
@@ -36,7 +38,8 @@ const Portfolio = () => {
                                             </div>
                                         </div>
                                         <div className='link-icon'>
-                                            <i className='fa fa-link'></i>
+                                            {/* <i className='fa fa-link'></i> */}
+                                            <FontAwesomeIcon icon='link' />
                                         </div>
                                     </a>
                                 </div>

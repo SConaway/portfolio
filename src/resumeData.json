@@ -16,22 +16,22 @@
             {
                 "name": "linkedin",
                 "url": "https://linkedin.com/in/steven-conaway",
-                "className": "fab fa-linkedin"
+                "className": ["fab", "linkedin"]
             },
             {
                 "name": "instagram",
                 "url": "http://instagram.com/steven.conaway",
-                "className": "fab fa-instagram"
+                "className": ["fab", "instagram"]
             },
             {
                 "name": "github",
                 "url": "http://github.com/sconaway",
-                "className": "fab fa-github"
+                "className": ["fab", "github"]
             },
             {
                 "name": "email",
                 "url": "mailto://sjconaway48@gmail.com",
-                "className": "fa fa-envelope"
+                "className": ["fa", "envelope"]
             }
         ]
     },

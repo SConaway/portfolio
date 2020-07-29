@@ -2,6 +2,8 @@ import React from 'react';
 
 import resumeData from './../../resumeData.json';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
 const Header = () => {
     return (
         <header id='home'>
@@ -67,7 +69,7 @@ const Header = () => {
                             <li key={item.name}>
                                 {' '}
                                 <a href={item.url}>
-                                    <i className={item.className}></i>{' '}
+                                    <FontAwesomeIcon icon={item.className} />
                                 </a>{' '}
                             </li>
                         ))}
@@ -77,7 +79,7 @@ const Header = () => {
 
             <p className='scrolldown'>
                 <a className='smoothscroll' href='#about'>
-                    <i className='fa fa-angle-down'></i>
+                    <FontAwesomeIcon icon='angle-down' />
                 </a>
             </p>
         </header>

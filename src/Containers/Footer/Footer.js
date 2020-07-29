@@ -2,6 +2,8 @@ import React from 'react';
 
 import resumeData from './../../resumeData.json';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
 const Footer = () => {
     return (
         <footer>
@@ -11,7 +13,7 @@ const Footer = () => {
                         {resumeData.main.socials.map((item) => (
                             <li key={item.name}>
                                 <a href={item.url}>
-                                    <i className={item.className}></i>
+                                    <FontAwesomeIcon icon={item.className} />
                                 </a>
                             </li>
                         ))}
@@ -52,7 +54,7 @@ const Footer = () => {
                         title='Back to Top'
                         href='#home'
                     >
-                        <i className='fa fa-angle-up'></i>
+                        <FontAwesomeIcon icon='angle-up' />
                     </a>
                 </div>
             </div>

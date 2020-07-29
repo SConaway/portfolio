@@ -258,7 +258,7 @@ ul#nav li.current a {
     background: #fff;
     color: #2b2b2b;
 }
-#about .download .button i {
+#about .download .button svg {
     margin-right: 15px;
     font-size: 20px;
 }
@@ -598,7 +598,7 @@ ul#nav li.current a {
     display: block;
     text-align: left;
 }
-.popup-modal .description-box .categories i {
+.popup-modal .description-box .categories svg {
     margin-right: 8px;
 }
 .popup-modal .link-box {
@@ -925,7 +925,7 @@ call-to-action .button {
 #contact h1 span {
     display: none;
 }
-#contact h1 i {
+#contact h1 svg {
     font-size: 72px;
 }
 /* #contact h1:before {

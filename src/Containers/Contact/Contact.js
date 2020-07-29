@@ -2,13 +2,15 @@ import React from 'react';
 
 import resumeData from './../../resumeData.json';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
 const Contact = () => {
     return (
         <section id='contact'>
             <div className='row section-head'>
                 <div className='two columns header-col'>
                     <h1>
-                        <i className='fa fa-envelope'></i>
+                        <FontAwesomeIcon icon='envelope' />
                         <span>Get In Touch</span>
                     </h1>
                 </div>
@@ -83,17 +85,17 @@ const Contact = () => {
                             <div>
                                 <button className='submit'>Submit</button>
                                 <span id='image-loader'>
-                                    <i className='fa fa-refresh fa-spin fa-3x fa-fw'></i>
+                                    <FontAwesomeIcon icon='refresh' />
                                     <span className='sr-only'>Loading...</span>
                                 </span>
                             </div>
                         </fieldset>
                     </form> */}
 
-                    <div id='message-warning'> Error boy</div>
+                    <div id='message-warning'> Error</div>
                     <div id='message-success'>
-                        <i className='fa fa-check'></i>Your message was sent,
-                        thank you!
+                        <FontAwesomeIcon icon='check' />
+                        Your message was sent, thank you!
                         <br />
                     </div>
                 </div>
