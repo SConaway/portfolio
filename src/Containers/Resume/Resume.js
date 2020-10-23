@@ -1,5 +1,3 @@
-import React from 'react';
-
 import resumeData from './../../resumeData.json';
 
 const Resume = () => {

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import resumeData from './../../resumeData.json';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';

@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from './Containers/Header/Header';
 import Footer from './Containers/Footer/Footer';
 import About from './Containers/About/About';
