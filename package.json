@@ -8,44 +8,24 @@
         "@fortawesome/free-regular-svg-icons": "^5.15.1",
         "@fortawesome/free-solid-svg-icons": "^5.15.1",
         "@fortawesome/react-fontawesome": "^0.1.11",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "web-vitals": "^0.2.4"
+        "next": "~10.0.0",
+        "react": "~17.0.1",
+        "react-dom": "~17.0.1"
     },
     "devDependencies": {
-        "@testing-library/jest-dom": "^5.11.5",
         "husky": "^4.3.0",
         "lint-staged": "^10.4.2",
-        "prettier": "^2.1.2",
-        "react-scripts": "^4.0.0",
-        "react-test-renderer": "^17.0.1",
-        "sharp": "^0.26.2",
-        "source-map-explorer": "^2.5.0"
+        "prettier": "^2.1.2"
     },
     "scripts": {
-        "analyze": "source-map-explorer 'build/static/js/*.js'",
-        "build": "react-scripts build",
-        "eject": "react-scripts eject",
+        "dev": "next dev",
+        "build": "next build",
         "pretty": "prettier --write .",
-        "start": "react-scripts start",
-        "test": "react-scripts test"
+        "start": "next start"
     },
     "eslintConfig": {
         "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
+            "react-app"
         ]
     },
     "lint-staged": {

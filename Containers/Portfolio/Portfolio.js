@@ -2,6 +2,8 @@ import resumeData from './../../resumeData.json';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
+import Image from 'next/image';
+
 const Portfolio = () => {
     return (
         <section id='portfolio'>
@@ -20,14 +22,13 @@ const Portfolio = () => {
                             >
                                 <div className='item-wrap'>
                                     <a href={item.url} title={item.title}>
-                                        <img
+                                        <Image
                                             alt={item.title}
                                             src={
                                                 item.image.local
-                                                    ? require(`./../../assets/images/portfolio/${item.image.name}/${item.image.name}.jpeg`)
+                                                    ? `/${item.image.name}`
                                                     : item.image.uri
                                             }
-                                            defer
                                         />
                                         <div className='overlay'>
                                             <div className='portfolio-item-meta'>
