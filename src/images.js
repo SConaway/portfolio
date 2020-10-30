@@ -5,8 +5,13 @@ const projects = resumeData.portfolio.projects;
 
 // const imageSizes = [300, 500, 600, 900, 1200];
 
+
+console.log("Optimizing images now...");
+
 projects.forEach((project) => {
     if (!project.image.local) return;
+    
+    console.log(`Optimzing image: assets/images/portfolio/${project.image.name}/original.${project.image.extension}`);
 
     let image = sharp(
         `assets/images/portfolio/${project.image.name}/original.${project.image.extension}`,
