@@ -2,17 +2,18 @@ import resumeData from './../../resumeData.json';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
+import Image from 'next/image';
+
 const About = () => {
     return (
         <section id='about'>
             <div className='row'>
                 <div className='three columns'>
-                    <img
+                    <Image
+                        src={`/${resumeData.main.image}`}
                         className='profile-pic'
-                        src={require('./../../assets/images/' +
-                            resumeData.main.image)}
-                        alt='Tim Baker Profile Pic'
-                        defer
+                        alt='Steven Conaway Profile Pic'
+                        unsized
                     />
                 </div>
                 <div className='nine columns main-col'>
