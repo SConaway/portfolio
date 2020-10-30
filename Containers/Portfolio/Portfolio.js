@@ -29,6 +29,7 @@ const Portfolio = () => {
                                                     ? `/${item.image.name}`
                                                     : item.image.uri
                                             }
+                                            unsized
                                         />
                                         <div className='overlay'>
                                             <div className='portfolio-item-meta'>
