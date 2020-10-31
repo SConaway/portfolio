@@ -1,4 +1,4 @@
-import resumeData from './../../resumeData.json';
+import resumeData from '../../resumeData';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
@@ -10,10 +10,12 @@ const About = () => {
             <div className='row'>
                 <div className='three columns'>
                     <Image
-                        src={`/${resumeData.main.image}`}
+                        src={`/${resumeData.main.image.path}`}
                         className='profile-pic'
                         alt='Steven Conaway Profile Pic'
-                        unsized
+                        width={resumeData.main.image.width}
+                        height={resumeData.main.image.height}
+                        loading='eager'
                     />
                 </div>
                 <div className='nine columns main-col'>

@@ -1,4 +1,4 @@
-import resumeData from './../../resumeData.json';
+import resumeData from './../../resumeData';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
@@ -29,7 +29,9 @@ const Portfolio = () => {
                                                     ? `/${item.image.name}`
                                                     : item.image.uri
                                             }
-                                            unsized
+                                            width={item.image.width}
+                                            height={item.image.height}
+                                            // loading='eager'
                                         />
                                         <div className='overlay'>
                                             <div className='portfolio-item-meta'>
