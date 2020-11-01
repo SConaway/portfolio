@@ -49,11 +49,11 @@
 
     /* About Section
    ------------------------------------------------------------------- */
-    #about .profile-pic {
-        width: 114px;
-        height: 114px;
-        margin-left: 12px;
-    }
+    /* #about .profile-pic {
+        width: 50vw !important;
+        height: 50vw !important;
+        margin-left: auto;
+    } */
     #about .contact-details {
         width: 50%;
     }
@@ -222,9 +222,9 @@
         font-size: 30px;
         line-height: 36px;
     }
-    header .social li {
-        /* margin: 0 10px; */
-    }
+    /* header .social li {
+        margin: 0 10px;
+    } */
 
     /* scrolldown link */
     header .scrolldown {
@@ -233,9 +233,9 @@
 
     /* About Section
    -------------------------------------------------------------------- */
-    #about .profile-pic {
+    /* #about .profile-pic {
         display: none;
-    }
+    } */
     #about .download .button {
         width: 100%;
         text-align: center;
