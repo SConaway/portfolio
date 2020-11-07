@@ -1,7 +1,11 @@
 export default {
     main: {
         name: 'Steven Conaway',
-        image: {path: 'profilePic.jpg', width: 294, height: 294},
+        image: {
+            path: 'profilePic.jpg',
+            width: 294,
+            height: 294,
+        },
         email: 'sjconaway48@gmail.com',
         phone: '(661) 236-5956',
         address: {
@@ -47,7 +51,7 @@ export default {
                 title: 'Mobile Application Developer',
                 years: 'August 2019 – Present',
                 description:
-                    'Designing and programming Want 2 Remember, a React Native mobile application for iOS and Android to help those with traumatic brain injuries by tracking daily activities, such as interactions with others, appointments, and other crucial memories. We are developing using the Agile methodology, with Jira for project management. Also, we use Git branches and GitHub Pull Requests for easy code management among the team. Lastly, I assisted in the creation of tutorial videos introducing new team members to our project structure and workflow.',
+                    'Designing and programming Want 2 Remember, a React Native mobile application for iOS and Android to help those with traumatic brain injuries. It tracks daily activities, appointments, and other crucial memories. Developing by using the Agile methodology, with Jira for project management. Git branches and GitHub Pull Requests are used for easy code management. I assisted in the creation of tutorial videos introducing new team members to our project structure and workflow.',
             },
             {
                 company: 'East Los Angeles Community Youth Center',
@@ -102,7 +106,8 @@ export default {
                 level: '90%',
             },
             {
-                name: 'Python',
+                name:
+                    'Python and embedded Python (MicroPython and CircuitPython)',
                 level: '70%',
             },
         ],
