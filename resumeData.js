@@ -47,7 +47,7 @@ export default {
                 title: 'Mobile Application Developer',
                 years: 'August 2019 – Present',
                 description:
-                    'Designing and programming Want 2 Remember, a React Native mobile application for iOS and Android to help those with traumatic brain injuries. We are developing using the Agile methodology, with Jira for project management. Also, we use Git branches and GitHub Pull Requests for easy code management among the team. Lastly, I assisted in the creation of tutorial videos introducing new team members to our project structure and workflow.',
+                    'Designing and programming Want 2 Remember, a React Native mobile application for iOS and Android to help those with traumatic brain injuries by tracking daily activities, such as interactions with others, appointments, and other crucial memories. We are developing using the Agile methodology, with Jira for project management. Also, we use Git branches and GitHub Pull Requests for easy code management among the team. Lastly, I assisted in the creation of tutorial videos introducing new team members to our project structure and workflow.',
             },
             {
                 company: 'East Los Angeles Community Youth Center',
