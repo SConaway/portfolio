@@ -12,7 +12,7 @@ export default {
         },
         website: 'https://www.stevenconaway.me',
         resumeDownload:
-            'https://stevenconaway.me/steven-conaway-resume-2020-10-01.pdf',
+            'https://stevenconaway.me/steven-conaway-resume-2020-11-07.pdf',
         socials: [
             {
                 name: 'linkedin',
