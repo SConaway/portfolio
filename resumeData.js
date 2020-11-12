@@ -16,7 +16,7 @@ export default {
         },
         website: 'https://www.stevenconaway.me',
         resumeDownload:
-            'https://stevenconaway.me/steven-conaway-resume-2020-11-07.pdf',
+            'https://stevenconaway.me/steven-conaway-resume-2020-11-12.pdf',
         socials: [
             {
                 name: 'linkedin',
@@ -56,9 +56,9 @@ export default {
             {
                 company: 'East Los Angeles Community Youth Center',
                 title: 'Tech Instructor',
-                years: 'June 2018 – March 2020',
+                years: 'June 2018 – Present',
                 description:
-                    'Taught a "How to Build your own Arduino-based Smart Car" class, "Introduction to Drones", and "LEGO Robotics" to underserved elementary- and middle-school students. Our Robotics team won second place in the First Annual Boyle Heights Robotics Competition. Also, developed the curriculum currently in use for the "How to Build your own Arduino-based Smart Car" class. ',
+                    'Taught a "How to Build your own Arduino-based Smart Car" class, "Introduction to Drones", and "LEGO Robotics" to underserved elementary- and middle-school students. Our Robotics team won second place in the First Annual Boyle Heights Robotics Competition. Also, developed the curriculum currently in use for the "How to Build your own Arduino-based Smart Car" class. In November 2020, I began teaching “Introductory Robotics Programming”, a virtual class teaching students basic programming skills by use of VEXCode VR.',
             },
             {
                 company: 'Unlocked Escape Rooms',
