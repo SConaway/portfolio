@@ -8,28 +8,6 @@ import Portfolio from './../Containers/Portfolio/Portfolio';
 import Contact from './../Containers/Contact/Contact';
 // import Testimonials from './../Containers/Testimonials/Testimonials';
 
-import {library} from '@fortawesome/fontawesome-svg-core';
-import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-import {
-    faEnvelope,
-    faAngleDown,
-    faAngleUp,
-    faDownload,
-    faLink,
-    faCheck,
-} from '@fortawesome/free-solid-svg-icons';
-
-library.add(
-    faLinkedin,
-    faGithub,
-    faEnvelope,
-    faAngleDown,
-    faAngleUp,
-    faDownload,
-    faLink,
-    faCheck,
-);
-
 export default function Home() {
     return (
         <>
