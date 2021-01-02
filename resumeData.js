@@ -16,7 +16,7 @@ export default {
         },
         website: 'https://www.stevenconaway.me',
         resumeDownload:
-            'https://stevenconaway.me/steven-conaway-resume-2020-11-12.pdf',
+            'https://stevenconaway.me/steven-conaway-resume-2021-01-02.pdf',
         description: "While the high school I have attended does not offer classes in the ever-changing fields of technology, I have found a way to integrate these fields into my study: I have taken online courses in STEM fields independently and am the founding president of my school's VEX Robotics Club. Additionally, I have significant STEM experience outside of my school. I enjoy sharing my knowledge and experience with others in my community. Most recently, I was a recipient of the Environmental Justice Angel Award at the East Los Angeles Community Youth Center's annual Gala in November 2019.",
         socials: [
             {
