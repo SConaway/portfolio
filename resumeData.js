@@ -2,9 +2,9 @@ export default {
     main: {
         name: 'Steven Conaway',
         image: {
-            path: 'profilePic.jpg',
+            path: 'profile.jpg',
             width: 294,
-            height: 294,
+            height: 403,
         },
         email: 'sjconaway48@gmail.com',
         phone: '(661) 236-5956',
