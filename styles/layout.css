@@ -231,7 +231,7 @@ ul#nav li.current a {
 }
 #about p {
     line-height: 30px;
-    color: #7a7a7a;
+    color: #dddddd;
 }
 #about .profile-pic {
     position: relative;
@@ -898,7 +898,7 @@ call-to-action .button {
     background: #191919;
     padding-top: 96px;
     padding-bottom: 102px;
-    color: #636363;
+    color: #dddddd;
 }
 #contact .section-head {
     margin-bottom: 42px;
