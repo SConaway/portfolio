@@ -31,6 +31,7 @@ const Portfolio = () => {
                                             }
                                             width={item.image.width}
                                             height={item.image.height}
+                                            quantity={25}
                                             // loading='eager'
                                         />
                                         <div className='overlay'>
