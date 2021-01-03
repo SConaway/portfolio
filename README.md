@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Credits
+
 I based it off of Tim Baker's [react-resume-template](https://github.com/tbakerx/react-resume-template).
 
 ## Getting Started

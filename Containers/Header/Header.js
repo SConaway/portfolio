@@ -57,9 +57,8 @@ const Header = () => {
                         {resumeData.main.name}
                     </h1>
                     <h3>
-                        I'm an aspiring computer scientist and electrical
-                        engineer currently seeking opportunities in these
-                        fields.
+                        I’m a high-school-senior-soon-to-be-college-student and
+                        an aspiring computer scientist.
                     </h3>
                     <hr />
                     <ul className='social'>
