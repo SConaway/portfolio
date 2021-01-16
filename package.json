@@ -3,17 +3,17 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "^1.2.32",
-        "@fortawesome/free-brands-svg-icons": "^5.15.1",
-        "@fortawesome/free-regular-svg-icons": "^5.15.1",
-        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/fontawesome-svg-core": "^1.2.34",
+        "@fortawesome/free-brands-svg-icons": "^5.15.2",
+        "@fortawesome/free-regular-svg-icons": "^5.15.2",
+        "@fortawesome/free-solid-svg-icons": "^5.15.2",
         "@fortawesome/react-fontawesome": "^0.1.13",
-        "next": "~10.0.4",
+        "next": "~10.0.5",
         "react": "~17.0.1",
         "react-dom": "~17.0.1"
     },
     "devDependencies": {
-        "husky": "^4.3.0",
+        "husky": "^4.3.8",
         "lint-staged": "^10.5.1",
         "prettier": "^2.2.0"
     },
