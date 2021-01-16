@@ -236,6 +236,10 @@
     /* #about .profile-pic {
         display: none;
     } */
+
+    #about .row .three {
+        text-align: center;
+    }
     #about .download .button {
         width: 100%;
         text-align: center;

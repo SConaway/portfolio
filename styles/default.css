@@ -207,7 +207,7 @@ table {
 }
 
 html {
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
     -webkit-font-smoothing: antialiased;
 }
 
@@ -215,7 +215,7 @@ body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 1.15em;
     line-height: 30px;
     color: #838c95;
 
