@@ -118,7 +118,7 @@ export default {
         projects: [
             {
                 title: 'Resume Website',
-                category: 'A resume website based on ReactJS.',
+                category: 'A resume website based on React and Next.js.',
                 image: {
                     name: 'resume-website.png',
                     extension: 'png',
