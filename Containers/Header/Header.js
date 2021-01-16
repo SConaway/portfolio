@@ -65,7 +65,11 @@ const Header = () => {
                         {resumeData.main.socials.map((item) => (
                             <li key={item.name}>
                                 {' '}
-                                <a href={item.url} target='_blank' rel='noopener'>
+                                <a
+                                    href={item.url}
+                                    target='_blank'
+                                    rel='noopener'
+                                >
                                     <FontAwesomeIcon icon={item.className} />
                                 </a>{' '}
                             </li>
