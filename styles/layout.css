@@ -481,7 +481,7 @@ ul#nav li.current a {
     margin-bottom: 36px;
 }
 .portfolio-item .item-wrap {
-    background: #fff;
+    /* background: #fff; */
     overflow: hidden;
     position: relative;
 
