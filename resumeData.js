@@ -21,17 +21,17 @@ export default {
             "While the high school I have attended does not offer classes in the ever-changing fields of technology, I have found a way to integrate these fields into my study: I have taken online courses in STEM fields independently and am the founding president of my school's VEX Robotics Club. Additionally, I have significant STEM experience outside of my school. I enjoy sharing my knowledge and experience with others in my community. Most recently, I was a recipient of the Environmental Justice Angel Award at the East Los Angeles Community Youth Center's annual Gala in November 2019.",
         socials: [
             {
-                name: 'linkedin',
+                name: 'LinkedIn',
                 url: 'https://linkedin.com/in/steven-conaway',
                 className: ['fab', 'linkedin'],
             },
             {
-                name: 'github',
+                name: 'GitHub',
                 url: 'http://github.com/sconaway',
                 className: ['fab', 'github'],
             },
             {
-                name: 'email',
+                name: 'Email',
                 url: 'mailto://sjconaway48@gmail.com',
                 className: ['fa', 'envelope'],
             },

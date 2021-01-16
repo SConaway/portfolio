@@ -69,6 +69,7 @@ const Header = () => {
                                     href={item.url}
                                     target='_blank'
                                     rel='noopener'
+                                    alt={item.name}
                                 >
                                     <FontAwesomeIcon icon={item.className} />
                                 </a>{' '}
