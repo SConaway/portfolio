@@ -23,7 +23,7 @@ export default {
             {
                 name: 'LinkedIn',
                 url: 'https://linkedin.com/in/steven-conaway',
-                className: ['fab', 'linkedin'],
+                className: ['fab', 'linkedin-in'],
             },
             {
                 name: 'Twitter',

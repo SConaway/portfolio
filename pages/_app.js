@@ -10,7 +10,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the CSS
 config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 
 import {library} from '@fortawesome/fontawesome-svg-core';
-import {faLinkedin, faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedinIn, faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons';
 import {
     faEnvelope,
     faAngleDown,
@@ -21,7 +21,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
-    faLinkedin,
+    faLinkedinIn,
     faGithub,
     faTwitter,
     faEnvelope,
