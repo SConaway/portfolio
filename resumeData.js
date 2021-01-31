@@ -26,6 +26,11 @@ export default {
                 className: ['fab', 'linkedin'],
             },
             {
+                name: 'Twitter',
+                url: 'https://twitter.com/StevenConaway4',
+                className: ['fab', 'twitter'],
+            },
+            {
                 name: 'GitHub',
                 url: 'http://github.com/sconaway',
                 className: ['fab', 'github'],
