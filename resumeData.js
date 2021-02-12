@@ -78,7 +78,7 @@ export default {
                 title: 'Tutor',
                 years: 'January 2018 – February 2020',
                 description:
-                    'Tutored middle- and high- school students from Saint Monica Academy in various subjects, including Latin, Math, and Java Programming.',
+                    'Tutoring middle- and high- school students from Saint Monica Academy and neighboring schools in various subjects, including Latin, Math, Chemistry, and Java Programming.',
             },
         ],
         skillMessage:
