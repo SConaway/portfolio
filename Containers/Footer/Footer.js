@@ -28,6 +28,8 @@ const Footer = () => {
                                 <a
                                     title='Styleshout'
                                     href='http://www.styleshout.com/'
+                                    target='_blank'
+                                    rel='noopener'
                                 >
                                     Styleshout
                                 </a>
@@ -39,6 +41,8 @@ const Footer = () => {
                                 <a
                                     title='Tim Baker'
                                     href='https://github.com/tbakerx/react-resume-template'
+                                    target='_blank'
+                                    rel='noopener'
                                 >
                                     Tim Baker
                                 </a>
